@@ -1410,3 +1410,85 @@ body.mode-slide .mck-slide.active-slide {
     margin-bottom: 24px;
   }
 }
+
+/* ==========================================================================
+   ZERO-NOISE PRESENTATION SYSTEM (8 Logic-Driven Archetypes × McKinsey 3-Color)
+   ========================================================================== */
+.zn-archetype-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #FFFBEB;
+  color: #B45309;
+  border: 1.5px solid #D97706;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.zn-claim-tag {
+  display: inline-block;
+  background: #051C2C;
+  color: #FDE68A;
+  font-size: 0.76rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+  letter-spacing: 0.04em;
+}
+
+.zn-logic-subtitle {
+  margin-top: 7px;
+  font-size: 0.85rem;
+  color: #475569;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.zn-logic-subtitle strong {
+  color: #051C2C;
+  font-weight: 700;
+}
+
+.zn-color-rule-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.71rem;
+  color: #64748B;
+  background: #F8FAFC;
+  border: 1px solid #CBD5E1;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.zn-dot-navy {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #051C2C;
+  display: inline-block;
+}
+
+.zn-dot-slate {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #CBD5E1;
+  display: inline-block;
+}
+
+.zn-dot-gold {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #D97706;
+  display: inline-block;
+}
+
