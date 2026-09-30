@@ -1,0 +1,1412 @@
+/* ==========================================================================
+   McKinsey & Company Executive Design System — 創業策略思考知識庫暨簡報教材門戶
+   Palette: Deep Navy (#051C2C) · Electric Blue (#0066CC) · Amber Gold (#D97706) · Slate (#F8FAFC)
+   ========================================================================== */
+
+:root {
+  /* McKinsey Core Brand Colors */
+  --mck-navy-950: #03111B;
+  --mck-navy-900: #051C2C;
+  --mck-navy-800: #0F2942;
+  --mck-navy-700: #1E3A8A;
+  --mck-blue-600: #0066CC;
+  --mck-blue-500: #2563EB;
+  --mck-blue-100: #E0F2FE;
+  --mck-blue-50:  #F0F7FF;
+
+  /* Executive Accent Colors (Strictly Controlled) */
+  --mck-gold-600: #D97706;
+  --mck-gold-500: #F59E0B;
+  --mck-gold-100: #FEF3C7;
+  --mck-gold-50:  #FFFBEB;
+
+  --mck-emerald-600: #059669;
+  --mck-emerald-100: #D1FAE5;
+  --mck-emerald-50:  #ECFDF5;
+
+  --mck-crimson-600: #DC2626;
+  --mck-crimson-50:  #FEF2F2;
+
+  /* Neutral Slate Hierarchy */
+  --bg-canvas: #F4F6F9;
+  --bg-card: #FFFFFF;
+  --bg-soft: #F8FAFC;
+  --bg-sidebar: #051C2C;
+  --border-subtle: #E2E8F0;
+  --border-strong: #CBD5E1;
+
+  /* Typography Colors */
+  --text-primary: #0F172A;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+  --text-light: #94A3B8;
+
+  /* Elevation & Geometry */
+  --shadow-xs: 0 1px 3px rgba(5, 28, 44, 0.06);
+  --shadow-sm: 0 4px 12px rgba(5, 28, 44, 0.06);
+  --shadow-md: 0 8px 24px rgba(5, 28, 44, 0.09);
+  --shadow-lg: 0 16px 40px rgba(5, 28, 44, 0.14);
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 9999px;
+
+  --font-sans: 'Inter', 'Outfit', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Georgia', 'Noto Serif TC', serif;
+  --transition: 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+mark.search-hl {
+  background-color: #FDE047;
+  color: #051C2C;
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-weight: 700;
+  box-shadow: 0 0 0 1px #EAB308;
+}
+
+/* ==========================================================================
+   1. PORTAL HOMEPAGE STYLES (index.html)
+   ========================================================================== */
+
+.portal-topbar {
+  background: var(--mck-navy-950);
+  color: #94A3B8;
+  font-size: 0.78rem;
+  padding: 8px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  letter-spacing: 0.03em;
+}
+
+.portal-topbar strong {
+  color: #FFFFFF;
+}
+
+.portal-hero {
+  background: linear-gradient(135deg, #03111B 0%, #051C2C 55%, #0F2942 100%);
+  color: #FFFFFF;
+  padding: 56px 32px 52px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 4px solid var(--mck-gold-500);
+}
+
+.portal-hero::before {
+  content: '';
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(circle, rgba(0, 102, 204, 0.22) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.portal-hero-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 40px;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.eyebrow-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 102, 204, 0.25);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  color: #7DD3FC;
+  padding: 5px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.portal-hero h1 {
+  font-size: 2.45rem;
+  font-weight: 900;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+  color: #FFFFFF;
+}
+
+.portal-hero h1 span.gold-accent {
+  color: var(--mck-gold-500);
+}
+
+.portal-hero p.hero-lead {
+  font-size: 1.05rem;
+  color: #CBD5E1;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  max-width: 680px;
+}
+
+.hero-kpi-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.hero-kpi-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-left: 3px solid var(--mck-gold-500);
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  backdrop-filter: blur(8px);
+}
+
+.hero-kpi-num {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 1.15;
+}
+
+.hero-kpi-label {
+  font-size: 0.75rem;
+  color: #94A3B8;
+  margin-top: 4px;
+}
+
+.hero-visual-box {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  background: #03111B;
+  position: relative;
+}
+
+.hero-visual-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-visual-caption {
+  padding: 10px 16px;
+  background: rgba(5, 28, 44, 0.92);
+  color: #94A3B8;
+  font-size: 0.76rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Sticky Global Search & Navigation Bar */
+.portal-sticky-bar {
+  position: sticky;
+  top: 0;
+  z-index: 950;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-sm);
+  padding: 14px 32px;
+}
+
+.portal-sticky-inner {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.portal-nav-links {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  align-items: center;
+}
+
+.portal-nav-pill {
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-weight: 700;
+  font-size: 0.86rem;
+  padding: 8px 15px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+  background: #FFFFFF;
+  transition: var(--transition);
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.portal-nav-pill:hover,
+.portal-nav-pill.active {
+  background: var(--mck-navy-900);
+  color: #FFFFFF;
+  border-color: var(--mck-navy-900);
+}
+
+.portal-nav-pill.cta-pill {
+  background: var(--mck-blue-600);
+  color: #FFFFFF;
+  border-color: var(--mck-blue-600);
+}
+
+.portal-nav-pill.cta-pill:hover {
+  background: var(--mck-navy-800);
+}
+
+/* Global Search Input */
+.global-search-wrapper {
+  flex: 1;
+  min-width: 300px;
+  max-width: 520px;
+  position: relative;
+}
+
+.global-search-input {
+  width: 100%;
+  padding: 11px 90px 11px 42px;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--mck-navy-800);
+  background: #FFFFFF;
+  font-size: 0.92rem;
+  font-family: inherit;
+  color: var(--text-primary);
+  outline: none;
+  transition: var(--transition);
+}
+
+.global-search-input:focus {
+  border-color: var(--mck-blue-600);
+  box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.15);
+}
+
+.global-search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: var(--mck-navy-800);
+  pointer-events: none;
+}
+
+.global-search-kbd {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--bg-soft);
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* Global Search Results Panel */
+.search-results-panel {
+  max-width: 1320px;
+  margin: 20px auto 0;
+  background: #FFFFFF;
+  border: 2px solid var(--mck-blue-600);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  padding: 24px;
+  display: none;
+}
+
+.search-results-panel.active {
+  display: block;
+}
+
+.search-results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.search-result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+  margin-bottom: 10px;
+  background: var(--bg-soft);
+  transition: var(--transition);
+}
+
+.search-result-item:hover {
+  border-color: var(--mck-blue-600);
+  background: var(--mck-blue-50);
+  transform: translateX(4px);
+}
+
+.search-result-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.search-badge-book {
+  background: var(--mck-navy-900);
+  color: #FFFFFF;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.search-badge-slide {
+  background: var(--mck-blue-100);
+  color: var(--mck-blue-600);
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.search-result-title {
+  font-size: 1.02rem;
+  font-weight: 800;
+  color: var(--mck-navy-900);
+  margin-bottom: 6px;
+}
+
+.search-result-snippet {
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.search-result-go {
+  white-space: nowrap;
+  padding: 8px 14px;
+  background: var(--mck-blue-600);
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 700;
+  border-radius: var(--radius-xs);
+  align-self: center;
+}
+
+.search-result-go:hover {
+  background: var(--mck-navy-900);
+}
+
+/* Quick Keyword Chips */
+.quick-keywords-bar {
+  max-width: 1320px;
+  margin: 14px auto 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.kw-chip {
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 4px 11px;
+  border-radius: var(--radius-pill);
+  background: #FFFFFF;
+  border: 1px solid var(--border-strong);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.kw-chip:hover {
+  background: var(--mck-blue-600);
+  color: #FFFFFF;
+  border-color: var(--mck-blue-600);
+}
+
+/* Main Portal Container */
+.portal-main {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 40px 32px 80px;
+}
+
+.mck-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--mck-navy-900);
+}
+
+.mck-section-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--mck-blue-600);
+  margin-bottom: 4px;
+}
+
+.mck-section-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--mck-navy-900);
+  letter-spacing: -0.01em;
+}
+
+.mck-section-desc {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* Category Filter Tabs for 50+ Books */
+.domain-filter-bar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.domain-tab {
+  padding: 9px 16px;
+  background: #FFFFFF;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-xs);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.domain-tab:hover {
+  border-color: var(--mck-blue-600);
+  color: var(--mck-blue-600);
+}
+
+.domain-tab.active {
+  background: var(--mck-navy-900);
+  color: #FFFFFF;
+  border-color: var(--mck-navy-900);
+}
+
+.domain-count {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-size: 0.72rem;
+}
+
+.domain-tab:not(.active) .domain-count {
+  background: var(--bg-soft);
+  color: var(--text-muted);
+}
+
+/* Book Cards Grid */
+.bookshelf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 24px;
+}
+
+.book-deck-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-subtle);
+  border-top: 4px solid var(--mck-navy-900);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: var(--transition);
+  overflow: hidden;
+}
+
+.book-deck-card.featured {
+  border-top: 5px solid var(--mck-gold-500);
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+}
+
+.book-deck-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--mck-blue-600);
+}
+
+.book-card-body {
+  padding: 28px;
+}
+
+.book-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.badge-mck {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 3px 9px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.badge-navy { background: var(--mck-navy-900); color: #FFFFFF; }
+.badge-blue { background: var(--mck-blue-100); color: var(--mck-blue-600); }
+.badge-gold { background: var(--mck-gold-100); color: #92400E; }
+.badge-emerald { background: var(--mck-emerald-100); color: #065F46; }
+.badge-slate { background: #E2E8F0; color: #475569; }
+
+.book-card-title {
+  font-size: 1.45rem;
+  font-weight: 900;
+  color: var(--mck-navy-900);
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.book-card-author {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.book-card-thesis {
+  background: var(--mck-blue-50);
+  border-left: 3px solid var(--mck-blue-600);
+  padding: 12px 14px;
+  font-size: 0.9rem;
+  color: var(--mck-navy-900);
+  font-weight: 600;
+  margin-bottom: 16px;
+  line-height: 1.55;
+}
+
+.book-chapter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.chapter-jump-pill {
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  background: var(--bg-soft);
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.chapter-jump-pill:hover {
+  background: var(--mck-navy-900);
+  color: #FFFFFF;
+  border-color: var(--mck-navy-900);
+}
+
+.book-card-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.btn-mck-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 22px;
+  background: var(--mck-navy-900);
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 0.9rem;
+  border-radius: var(--radius-xs);
+  text-decoration: none;
+  transition: var(--transition);
+  border: none;
+  cursor: pointer;
+}
+
+.btn-mck-primary:hover {
+  background: var(--mck-blue-600);
+  transform: translateY(-1px);
+}
+
+.btn-mck-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  background: #FFFFFF;
+  color: var(--mck-navy-900);
+  font-weight: 700;
+  font-size: 0.86rem;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--mck-navy-900);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btn-mck-secondary:hover {
+  background: var(--mck-blue-50);
+  border-color: var(--mck-blue-600);
+  color: var(--mck-blue-600);
+}
+
+.book-featured-preview {
+  padding: 28px;
+  background: var(--mck-navy-900);
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ==========================================================================
+   2. MCKINSEY PRESENTATION DECK STYLES (book-*.html)
+   ========================================================================== */
+
+.deck-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: var(--mck-navy-950);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.deck-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.deck-logo-mark {
+  width: 34px;
+  height: 34px;
+  background: var(--mck-blue-600);
+  border-left: 3px solid var(--mck-gold-500);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 0.9rem;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+}
+
+.deck-brand-text h1 {
+  font-size: 0.96rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.deck-brand-text p {
+  font-size: 0.72rem;
+  color: #94A3B8;
+}
+
+.deck-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-deck-ctrl {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 13px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: var(--radius-xs);
+  color: #E2E8F0;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btn-deck-ctrl:hover {
+  background: rgba(255, 255, 255, 0.16);
+  color: #FFFFFF;
+}
+
+.btn-deck-ctrl.active {
+  background: var(--mck-blue-600);
+  border-color: var(--mck-blue-500);
+  color: #FFFFFF;
+}
+
+.btn-deck-ctrl.gold-ctrl {
+  border-color: var(--mck-gold-500);
+  color: #FDE68A;
+}
+
+/* Progress Bar */
+.deck-progress-wrap {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #1E293B;
+  z-index: 999;
+}
+
+.deck-progress-bar {
+  height: 100%;
+  width: 6.25%;
+  background: linear-gradient(90deg, var(--mck-blue-500), var(--mck-gold-500));
+  transition: width 0.28s ease;
+}
+
+/* Deck Layout Container */
+.deck-layout {
+  display: flex;
+  margin-top: 64px;
+  min-height: calc(100vh - 64px);
+}
+
+/* Left Sidebar Outline & Search */
+.deck-sidebar {
+  width: 310px;
+  background: var(--mck-navy-900);
+  color: #E2E8F0;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: fixed;
+  top: 64px;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  z-index: 900;
+  transition: transform var(--transition);
+}
+
+body.sidebar-collapsed .deck-sidebar {
+  transform: translateX(-100%);
+}
+
+body.sidebar-collapsed .deck-stage {
+  margin-left: 0;
+}
+
+.sidebar-search-box {
+  position: relative;
+}
+
+.sidebar-search-box input {
+  width: 100%;
+  padding: 9px 12px 9px 34px;
+  border-radius: var(--radius-xs);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.07);
+  color: #FFFFFF;
+  font-size: 0.84rem;
+  font-family: inherit;
+  outline: none;
+}
+
+.sidebar-search-box input::placeholder {
+  color: #94A3B8;
+}
+
+.sidebar-search-box input:focus {
+  border-color: var(--mck-gold-500);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.sidebar-search-box::before {
+  content: '🔍';
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+
+.sidebar-filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.layer-btn {
+  padding: 4px 9px;
+  border-radius: 3px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.05);
+  color: #CBD5E1;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.layer-btn:hover,
+.layer-btn.active {
+  background: var(--mck-blue-600);
+  color: #FFFFFF;
+  border-color: var(--mck-blue-500);
+}
+
+.slide-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.slide-nav-group {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #64748B;
+  margin: 10px 0 4px 4px;
+}
+
+.slide-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: var(--radius-xs);
+  font-size: 0.8rem;
+  color: #CBD5E1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: var(--transition);
+  border-left: 3px solid transparent;
+}
+
+.slide-nav-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #FFFFFF;
+}
+
+.slide-nav-item.active {
+  background: rgba(0, 102, 204, 0.28);
+  color: #FFFFFF;
+  font-weight: 700;
+  border-left-color: var(--mck-gold-500);
+}
+
+.slide-num-pill {
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #E2E8F0;
+  flex-shrink: 0;
+}
+
+/* Main Stage for Slides */
+.deck-stage {
+  margin-left: 310px;
+  flex: 1;
+  padding: 28px 36px 90px;
+  max-width: 1380px;
+  transition: margin-left var(--transition);
+}
+
+.slides-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+body.mode-slide .mck-slide {
+  display: none;
+}
+
+body.mode-slide .mck-slide.active-slide {
+  display: block;
+  animation: mckSlideFade 0.28s ease-out;
+}
+
+@keyframes mckSlideFade {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Individual McKinsey Slide Card */
+.mck-slide {
+  background: #FFFFFF;
+  border: 1px solid var(--border-strong);
+  border-top: 5px solid var(--mck-navy-900);
+  border-radius: var(--radius-xs);
+  box-shadow: var(--shadow-md);
+  padding: 32px 38px 28px;
+  position: relative;
+}
+
+/* McKinsey Top Tracker & Action Title (Pyramid Principle) */
+.mck-slide-top {
+  border-bottom: 2px solid var(--mck-navy-900);
+  padding-bottom: 14px;
+  margin-bottom: 22px;
+  position: relative;
+}
+
+.mck-slide-top::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 110px;
+  height: 4px;
+  background: var(--mck-gold-500);
+}
+
+.mck-tracker-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.mck-breadcrumb {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--mck-blue-600);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mck-action-title {
+  font-size: 1.48rem;
+  font-weight: 900;
+  color: var(--mck-navy-900);
+  line-height: 1.32;
+  letter-spacing: -0.015em;
+}
+
+.mck-action-title .hl-gold {
+  color: var(--mck-gold-600);
+}
+
+.mck-action-title .hl-blue {
+  color: var(--mck-blue-600);
+}
+
+/* Slide Body Layout */
+.mck-slide-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mck-two-col {
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: 22px;
+  align-items: stretch;
+}
+
+.mck-three-col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/* McKinsey Exhibit Box (SVG Chart / Diagram / Visual) */
+.mck-exhibit-box {
+  background: var(--bg-soft);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xs);
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.exhibit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.exhibit-label {
+  font-size: 0.73rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--mck-navy-800);
+}
+
+.exhibit-title {
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.exhibit-canvas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.exhibit-canvas svg {
+  width: 100%;
+  height: auto;
+  max-height: 310px;
+  display: block;
+}
+
+.exhibit-canvas img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--border-subtle);
+}
+
+.exhibit-source {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1px dashed var(--border-subtle);
+}
+
+/* McKinsey Structured Insight Buckets */
+.mck-bucket-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-subtle);
+  border-top: 3px solid var(--mck-blue-600);
+  border-radius: var(--radius-xs);
+  padding: 14px 16px;
+}
+
+.mck-bucket-card.gold-top {
+  border-top-color: var(--mck-gold-500);
+  background: var(--mck-gold-50);
+}
+
+.mck-bucket-card.navy-top {
+  border-top-color: var(--mck-navy-900);
+}
+
+.mck-bucket-card.emerald-top {
+  border-top-color: var(--mck-emerald-600);
+  background: var(--mck-emerald-50);
+}
+
+.bucket-title {
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: var(--mck-navy-900);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bucket-list {
+  list-style: none;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.bucket-list li {
+  position: relative;
+  padding-left: 14px;
+  line-height: 1.52;
+}
+
+.bucket-list li::before {
+  content: '▪';
+  position: absolute;
+  left: 0;
+  color: var(--mck-blue-600);
+  font-weight: bold;
+}
+
+/* McKinsey Data & Action Table */
+.mck-table-wrap {
+  overflow-x: auto;
+}
+
+.mck-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  border-top: 2px solid var(--mck-navy-900);
+  border-bottom: 2px solid var(--mck-navy-900);
+}
+
+.mck-table th {
+  background: var(--mck-navy-900);
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align: left;
+  padding: 9px 12px;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+}
+
+.mck-table td {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  vertical-align: top;
+  line-height: 1.48;
+}
+
+.mck-table tr:nth-child(even) td {
+  background: var(--bg-soft);
+}
+
+.mck-table tr:hover td {
+  background: var(--mck-blue-50);
+}
+
+/* McKinsey Bottom Takeaway Banner */
+.mck-takeaway-bar {
+  background: var(--mck-navy-900);
+  color: #FFFFFF;
+  padding: 12px 18px;
+  border-left: 5px solid var(--mck-gold-500);
+  border-radius: 3px;
+  font-size: 0.88rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.mck-takeaway-bar strong {
+  color: #FDE68A;
+}
+
+/* Speaker Notes Drawer (3-Part McKinsey Briefing Notes) */
+.mck-speaker-notes {
+  margin-top: 14px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-xs);
+  background: #FFFBEB;
+  overflow: hidden;
+}
+
+.notes-toggle-header {
+  padding: 8px 14px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #92400E;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+.notes-body {
+  padding: 12px 16px;
+  border-top: 1px dashed #FCD34D;
+  font-size: 0.82rem;
+  color: #78350F;
+  display: none;
+  line-height: 1.6;
+}
+
+.mck-speaker-notes.open .notes-body {
+  display: block;
+}
+
+/* Slide Footer Signature */
+.mck-slide-footer {
+  margin-top: 18px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+/* Floating Bottom Navigation Dock */
+.deck-floating-nav {
+  position: fixed;
+  bottom: 20px;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(5, 28, 44, 0.95);
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  z-index: 1000;
+}
+
+.dock-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 800;
+  transition: var(--transition);
+}
+
+.dock-btn:hover {
+  background: var(--mck-blue-600);
+  border-color: var(--mck-blue-500);
+}
+
+.dock-counter {
+  font-size: 0.82rem;
+  font-weight: 800;
+  padding: 0 8px;
+  color: #FDE68A;
+}
+
+/* Footer */
+.portal-footer {
+  background: var(--mck-navy-950);
+  color: #94A3B8;
+  padding: 40px 32px;
+  text-align: center;
+  font-size: 0.85rem;
+  border-top: 3px solid var(--mck-gold-500);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .portal-hero-inner,
+  .book-deck-card.featured,
+  .mck-two-col,
+  .mck-three-col {
+    grid-template-columns: 1fr;
+  }
+  .hero-kpi-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .deck-sidebar {
+    transform: translateX(-100%);
+  }
+  .deck-sidebar.mobile-open {
+    transform: translateX(0);
+  }
+  .deck-stage {
+    margin-left: 0;
+    padding: 20px 14px 80px;
+  }
+  .mck-slide {
+    padding: 22px 18px;
+  }
+}
+
+@media print {
+  .deck-header, .deck-sidebar, .deck-floating-nav, .deck-progress-wrap {
+    display: none !important;
+  }
+  .deck-stage {
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+  body.mode-slide .mck-slide {
+    display: block !important;
+    page-break-after: always;
+    margin-bottom: 24px;
+  }
+}

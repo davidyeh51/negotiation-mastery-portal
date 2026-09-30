@@ -1,0 +1,2538 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>《有效提升你的談判能力》湯君健｜麥肯錫顧問 16 頁精華簡報與實戰作戰教材</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+TC:wght@400;500;700;800;900&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="mode-slide">
+
+  <!-- Top Presentation Header -->
+  <header class="deck-header">
+    <div class="deck-brand">
+      <button class="btn-deck-ctrl" id="btnToggleSidebar" title="切換側邊目錄欄">☰ 目錄</button>
+      <div class="deck-logo-mark">McK</div>
+      <div class="deck-brand-text">
+        <h1>COURSE #001 ｜《有效提升你的談判能力：解決「我要」問題的實戰體系》</h1>
+        <p>講師：湯君健（前寶潔 P&amp;G 渠道總監、大型電商企業大學校長）｜ 麥肯錫顧問逐講解析・16 頁雙視覺簡報教材</p>
+      </div>
+    </div>
+
+    <div class="deck-controls">
+      <a href="index.html" class="btn-deck-ctrl">🏠 返回談判知識庫門戶</a>
+      <button class="btn-deck-ctrl active" id="btnModeSlide">🎬 簡報模式 (16:9)</button>
+      <button class="btn-deck-ctrl" id="btnModeScroll">📜 講義全覽模式</button>
+      <button class="btn-deck-ctrl gold-ctrl" id="btnToggleNotesAll" title="快捷鍵 N">🎙️ 顧問講稿備忘</button>
+      <a href="downloads/tang-junjian-negotiation-mckinsey-briefing.pptx" class="btn-deck-ctrl">📥 下載 .pptx</a>
+      <button class="btn-deck-ctrl" id="btnFullscreen" title="全螢幕簡報">⛶</button>
+    </div>
+  </header>
+
+  <!-- Slide Progress Bar -->
+  <div class="deck-progress-wrap">
+    <div class="deck-progress-bar" id="deckProgressBar"></div>
+  </div>
+
+  <!-- Main Deck Layout -->
+  <div class="deck-layout">
+
+    <!-- Left Sidebar: Search, Layer Filter & 16-Slide Sitemap -->
+    <aside class="deck-sidebar" id="deckSidebar">
+      <div class="sidebar-search-box">
+        <input type="text" id="deckSearchInput" placeholder="搜尋本簡報關鍵字 (按 / 聚焦)..." autocomplete="off">
+      </div>
+      <div id="deckSearchStatus" style="display:none; font-size:0.75rem; color:#CBD5E1; background:rgba(0,102,204,0.25); padding:6px 10px; border-radius:4px;"></div>
+
+      <div class="sidebar-filter-pills">
+        <button class="layer-btn active" data-layer="all">全部 (16)</button>
+        <button class="layer-btn" data-layer="overview">總覽 (2)</button>
+        <button class="layer-btn" data-layer="foundation">🟦 認識 (2)</button>
+        <button class="layer-btn" data-layer="price">🟩 價格 (3)</button>
+        <button class="layer-btn" data-layer="terms">🟨 條件 (2)</button>
+        <button class="layer-btn" data-layer="value">🟧 價值 (2)</button>
+        <button class="layer-btn" data-layer="defense">🟥 防線 (3)</button>
+        <button class="layer-btn" data-layer="synthesis">🟪 落地 (2)</button>
+      </div>
+
+      <nav class="slide-nav-list">
+        <div class="slide-nav-group">總綱與全課骨架 (#001, #008)</div>
+        <a class="slide-nav-item active" data-target="slide-01" data-layer="overview">
+          <span>發刊詞：解決「我要」與可靠特質</span>
+          <span class="slide-num-pill">S01</span>
+        </a>
+        <a class="slide-nav-item" data-target="slide-02" data-layer="overview">
+          <span>全課架構：一核心、三層、兩防線</span>
+          <span class="slide-num-pill">S02</span>
+        </a>
+
+        <div class="slide-nav-group">🟦 第 1 講：正確認識談判 (#002)</div>
+        <a class="slide-nav-item" data-target="slide-03" data-layer="foundation">
+          <span>第1講(上) 分橘子啟示與談判三要點</span>
+          <span class="slide-num-pill">S03</span>
+        </a>
+        <a class="slide-nav-item" data-target="slide-04" data-layer="foundation">
+          <span>第1講(下) 三種基本模型與跨層切換</span>
+          <span class="slide-num-pill">S04</span>
+        </a>
+
+        <div class="slide-nav-group">🟩 第 2 講：價格類談判 (#003)</div>
+        <a class="slide-nav-item" data-target="slide-05" data-layer="price">
+          <span>第2講(上) 底線機會成本與紅酒懂行</span>
+          <span class="slide-num-pill">S05</span>
+        </a>
+        <a class="slide-nav-item" data-target="slide-06" data-layer="price">
+          <span>第2講(中) 誰先報價與「報完價閉嘴」</span>
+          <span class="slide-num-pill">S06</span>
+        </a>
+        <a class="slide-nav-item" data-target="slide-07" data-layer="price">
+          <span>第2講(下) 離桌威脅判讀與遞減讓步</span>
+          <span class="slide-num-pill">S07</span>
+        </a>
+
+        <div class="slide-nav-group">🟨 第 3 講：條件類談判 (#004)</div>
+        <a class="slide-nav-item" data-target="slide-08" data-layer="terms">
+          <span>第3講(上) 條款三級分類與兩類提問</span>
+          <span class="slide-num-pill">S08</span>
+        </a>
+        <a class="slide-nav-item" data-target="slide-09" data-layer="terms">
+          <span>第3講(下) 最佳可替代方案與條件交換</span>
+          <span class="slide-num-pill">S09</span>
+        </a>
+
+        <div class="slide-nav-group">🟧 第 4 講：價值類談判 (#005)</div>
+        <a class="slide-nav-item" data-target="slide-10" data-layer="value">
+          <span>第4講(上) 閱讀價值鏈三角形做大餅</span>
+          <span class="slide-num-pill">S10</span>
+        </a>
+        <a class="slide-nav-item" data-target="slide-11" data-layer="value">
+          <span>第4講(下) 塞入主張與決策鏈三角色</span>
+          <span class="slide-num-pill">S11</span>
+        </a>
+
+        <div class="slide-nav-group">🟥 第 5–6 講：心態、心理戰與姿態 (#006–#007)</div>
+        <a class="slide-nav-item" data-target="slide-12" data-layer="defense">
+          <span>第5講(上) 離桌底氣與對事不對人</span>
+          <span class="slide-num-pill">S12</span>
+        </a>
+        <a class="slide-nav-item" data-target="slide-13" data-layer="defense">
+          <span>第5講(下) 積極防禦五種談判心理戰</span>
+          <span class="slide-num-pill">S13</span>
+        </a>
+        <a class="slide-nav-item" data-target="slide-14" data-layer="posture">
+          <span>第6講 誠懇·堅定·柔軟與拒絕公式</span>
+          <span class="slide-num-pill">S14</span>
+        </a>
+
+        <div class="slide-nav-group">🟪 顧問整合與作戰工具 (#008)</div>
+        <a class="slide-nav-item" data-target="slide-15" data-layer="synthesis">
+          <span>跨教材整合：八條因果鏈 × MEDDIC</span>
+          <span class="slide-num-pill">S15</span>
+        </a>
+        <a class="slide-nav-item" data-target="slide-16" data-layer="synthesis">
+          <span>全課總結：談判前一頁紙與13項行動</span>
+          <span class="slide-num-pill">S16</span>
+        </a>
+      </nav>
+    </aside>
+
+    <!-- Main Slide Deck Stage -->
+    <main class="deck-stage">
+      <div class="slides-wrapper">
+
+        <!-- ================================================================
+             SLIDE 01: 發刊詞 ｜ 談判是幫你解決「我要」的問題 (#001)
+             ================================================================ -->
+        <section class="mck-slide active-slide" id="slide-01">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 01 / 16 ｜ EXECUTIVE BRIEFING COVER &amp; CORE DEFINITION (#001)</div>
+              <span class="badge-mck badge-navy">發刊詞與核心命題</span>
+            </div>
+            <h2 class="mck-action-title">
+              談判是幫你解決「<span class="hl-gold">我要</span>」的問題：利用決策中的理性與非理性因素，以己方目的為先並與對手聯手共創方案
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 1 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 1 ｜ NEGOTIATION DEFINITION &amp; TWO FAILURE MODES</span>
+                  <span class="exhibit-title">不會談判的兩極失敗模式 vs. 湯君健「三組關鍵詞」談判模型</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <img src="images/hero-negotiation.jpg" alt="從零和拉鋸邁向三層談判架構">
+                  <svg viewBox="0 0 600 150" width="100%">
+                    <rect width="600" height="150" rx="6" fill="#051C2C"/>
+                    <!-- Left Failure Mode -->
+                    <rect x="16" y="18" width="155" height="114" rx="6" fill="#450A0A" stroke="#DC2626" stroke-width="1.5"/>
+                    <text x="93" y="40" text-anchor="middle" fill="#FCA5A5" font-size="11" font-weight="800">❌ 失敗模式一：衝突升級</text>
+                    <text x="93" y="62" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700">走到吵架甚至動手</text>
+                    <text x="93" y="84" text-anchor="middle" fill="#CBD5E1" font-size="10">把談判當唇槍舌劍辯論賽</text>
+                    <text x="93" y="102" text-anchor="middle" fill="#CBD5E1" font-size="10">關係破裂・合作破局</text>
+                    <text x="93" y="120" text-anchor="middle" fill="#FCA5A5" font-size="10" font-weight="700">（只爭立場・零方案）</text>
+
+                    <!-- Center Core Model -->
+                    <rect x="188" y="12" width="224" height="126" rx="6" fill="#0F2942" stroke="#F59E0B" stroke-width="2.5"/>
+                    <text x="300" y="34" text-anchor="middle" fill="#FBBF24" font-size="11.5" font-weight="800">🏆 湯君健談判定義（三組關鍵詞）</text>
+                    <text x="300" y="56" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="800">① 利用決策中的【理性＋非理性】</text>
+                    <text x="300" y="78" text-anchor="middle" fill="#38BDF8" font-size="11.5" font-weight="800">② 堅持【以自己的目的（我要）為先】</text>
+                    <text x="300" y="100" text-anchor="middle" fill="#34D399" font-size="11.5" font-weight="800">③ 和對方【聯手找到解決方案】</text>
+                    <text x="300" y="124" text-anchor="middle" fill="#FDE68A" font-size="10.5" font-weight="700">高手核心特質＝「可靠」（原則強·守信·找方案）</text>
+
+                    <!-- Right Failure Mode -->
+                    <rect x="429" y="18" width="155" height="114" rx="6" fill="#1E293B" stroke="#64748B" stroke-width="1.5"/>
+                    <text x="506" y="40" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="800">❌ 失敗模式二：懼怕衝突</text>
+                    <text x="506" y="62" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="700">被當「軟柿子」無端妥協</text>
+                    <text x="506" y="84" text-anchor="middle" fill="#CBD5E1" font-size="10">買房買車總拿原價</text>
+                    <text x="506" y="102" text-anchor="middle" fill="#CBD5E1" font-size="10">升職加薪永遠輪不到自己</text>
+                    <text x="506" y="120" text-anchor="middle" fill="#FDE68A" font-size="10" font-weight="700">（假裝佛系・不知如何主張）</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》發刊詞（湯君健，知識庫 #001）。</div>
+              </div>
+
+              <!-- Right: Core Insights & Speaker Credentials -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🎯 為什麼每個人都需要談判？（凡是「我要」皆談判）</div>
+                  <ul class="bucket-list">
+                    <li><strong>利益衝突與資源不足無處不在</strong>：項目利潤、升職加薪預算都是零和分配（你多拿，對方就少拿）。</li>
+                    <li><strong>適用邊界極廣</strong>：買車想便宜 1 萬、賣房想多賣 10 萬、職場要加薪 20%、甚至讓孩子放下手機上床睡覺——<strong>凡是「我要」，但從別人那裡沒那麼容易要到的，都屬於談判範疇</strong>。</li>
+                    <li><strong>破除「佛系」假象</strong>：現實中多數所謂「無欲無求」的人，其實是不知道該如何去主張和追求自己的利益。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">🏅 談判高手的真實畫像與講者甲乙方雙棲背景</div>
+                  <ul class="bucket-list">
+                    <li><strong>高手特質是「可靠」而非「伶牙俐齒」</strong>：真正的談判專家不是咄咄逼人，而是<strong>原則性強、信守諾言、遇困難找方案不抱怨、習慣換位思考</strong>。信譽本身就是核心談判資產。</li>
+                    <li><strong>湯君健雙棲實戰資歷</strong>：先任<strong>寶潔（P&amp;G）銷售部 8 年渠道總監（乙方）</strong>，每年與戰略客戶採購進行幾十輪合同談判，年合同額約 <strong>10 個億</strong>（原文未載幣別），獲大中國區最佳銷售獎；後任<strong>大型電商企業大學校長（甲方）</strong>，與採購並肩研究如何向供應商爭取更多資源投入。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 1 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>評估維度</th>
+                    <th>大眾對談判的常見誤解</th>
+                    <th>湯君健《有效提升你的談判能力》核心定義</th>
+                    <th>David 實戰應用（甲乙方雙重角色｜顧問推論）</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>本質與目標</strong></td>
+                    <td>爾虞我詐的算計，或兩排西裝專家唇槍舌劍辯論、說服對方認輸。</td>
+                    <td><strong>競爭與合作並存的「遊戲」</strong>：先錨定己方「我要」目的，再與對方聯手創造性地找解決方案。</td>
+                    <td>對業主（乙方角色）與對供應商/分包商（甲方角色）皆先寫下不可動搖的「我要」目標。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>決策驅動因素</strong></td>
+                    <td>以為單靠利益算計（砍價）或單靠打感情牌（交情）就能擺平。</td>
+                    <td>同時運用人決策中的<strong>理性因素（利益/數據）與非理性因素（情感/立場/氣場/面子）</strong>。</td>
+                    <td>工程採購與合約談判除了算清 BOM 成本，亦須布局議程、座位與決策者心理訴求。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>立即落地行動 (#001)</strong></td>
+                    <td colspan="3"><strong>☑️ 待辦行動：</strong>列出本季 <strong>3 件「我要但不易要到」的事項清單</strong>（客戶、供應商、內部團隊各一），作為後續價格／條件／價值三類技巧的實戰演練標的。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>談判定義把「以自己目的為先」與「聯手找方案」並列——不是空喊雙贏口號，而是先站穩己方目標再合作。</span>
+              <span>對應來源：0.發刊詞 ｜ 知識庫 #001</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 01 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>談判不是律師或外交官的專利，凡是生活中「我要、但不容易從別人那裡要到」的事，都需要透過「以己為先、軟硬兼施、聯手共創」的談判來解決。<br>
+                <strong>② 補充說明：</strong>講者湯君健擁有寶潔 8 年渠道總監（乙方，年談判規模約 10 億，原文未載幣別）與大型電商企業大學校長（甲方採購）的雙重經歷。他觀察到不會談判的人往往陷入兩個極端：要嘛吵架翻臉，要嘛怕衝突當「軟柿子」買車買房拿原價、加薪永遠輪不到自己。真正的高手給人的感覺是「可靠」——原則強、守信、專注找方案。<br>
+                <strong>③ 下一頁轉場：</strong>建立對談判的基礎定義後，下一頁我們用一張全景架構圖，鳥瞰整門課程「一核心、三層循環、兩道防線」的邏輯骨架。
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 1 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 02: 全課架構圖 ｜ 一核心、三層循環、兩道防線 (#001, #008)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-02">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 02 / 16 ｜ FULL-COURSE ARCHITECTURE &amp; CAUSAL ENGINE (#008)</div>
+              <span class="badge-mck badge-blue">全課邏輯骨架</span>
+            </div>
+            <h2 class="mck-action-title">
+              全課邏輯骨架：以「<span class="hl-blue">我要</span>」為核心，串聯價格、條件、價值三層循環模型，並由內在心態與外在姿態築起兩道防線
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 2 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 2 ｜ 1-CORE, 3-LAYER LOOP &amp; 2-DEFENSE ARCHITECTURE</span>
+                  <span class="exhibit-title">三類談判動態循環（價格→條件→價值→回價格分配）與內外防線支撐圖</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 620 330" width="100%">
+                    <rect width="620" height="330" rx="6" fill="#F8FAFC" stroke="#CBD5E1"/>
+                    <!-- Top Core Banner -->
+                    <rect x="20" y="14" width="580" height="44" rx="6" fill="#051C2C"/>
+                    <text x="310" y="41" text-anchor="middle" fill="#FBBF24" font-size="13" font-weight="800">🎯 一核心：以「我要」為先 × 區分表面訴求與真實需求（發刊詞 &amp; 第 1 講）</text>
+
+                    <!-- 3 Layers Loop Box -->
+                    <rect x="20" y="70" width="580" height="138" rx="8" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+                    <text x="310" y="90" text-anchor="middle" fill="#1E3A8A" font-size="11.5" font-weight="800">🔄 三層動態循環模型（由簡到繁・卡關主動切換・做大餅後回到價格分配）</text>
+
+                    <!-- L1 Price -->
+                    <rect x="36" y="102" width="162" height="92" rx="6" fill="#FFFFFF" stroke="#0284C7" stroke-width="2"/>
+                    <text x="117" y="122" text-anchor="middle" fill="#0284C7" font-size="11" font-weight="800">L1 價格談判（第 2 講）</text>
+                    <text x="117" y="141" text-anchor="middle" fill="#051C2C" font-size="12" font-weight="800">零和博弈・基本功</text>
+                    <text x="117" y="160" text-anchor="middle" fill="#475569" font-size="10">底線(機會成本)・目標尺子</text>
+                    <text x="117" y="176" text-anchor="middle" fill="#475569" font-size="10">報完價閉嘴・遞減讓步</text>
+
+                    <!-- Arrow L1 -> L2 -->
+                    <text x="213" y="138" text-anchor="middle" fill="#D97706" font-size="9.5" font-weight="800">降價卡死</text>
+                    <path d="M 198 148 L 228 148" stroke="#D97706" stroke-width="2.5"/>
+
+                    <!-- L2 Terms -->
+                    <rect x="229" y="102" width="162" height="92" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+                    <text x="310" y="122" text-anchor="middle" fill="#059669" font-size="11" font-weight="800">L2 條件/交換談判（第 3 講）</text>
+                    <text x="310" y="141" text-anchor="middle" fill="#051C2C" font-size="12" font-weight="800">多條款・各取所需</text>
+                    <text x="310" y="160" text-anchor="middle" fill="#475569" font-size="10">主要/次要/底線・假設題</text>
+                    <text x="310" y="176" text-anchor="middle" fill="#475569" font-size="10">最佳替代方案・條件換條件</text>
+
+                    <!-- Arrow L2 -> L3 -->
+                    <text x="406" y="138" text-anchor="middle" fill="#D97706" font-size="9.5" font-weight="800">條件到頭</text>
+                    <path d="M 391 148 L 421 148" stroke="#D97706" stroke-width="2.5"/>
+
+                    <!-- L3 Value -->
+                    <rect x="422" y="102" width="162" height="92" rx="6" fill="#065F46" stroke="#10B981" stroke-width="2"/>
+                    <text x="503" y="122" text-anchor="middle" fill="#6EE7B7" font-size="11" font-weight="800">L3 價值談判（第 4 講）</text>
+                    <text x="503" y="141" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="800">閱讀價值鏈・把餅做大</text>
+                    <text x="503" y="160" text-anchor="middle" fill="#D1FAE5" font-size="10">納入第三方(顧客)三角形</text>
+                    <text x="503" y="176" text-anchor="middle" fill="#FDE68A" font-size="10">塞進主張・ABC選項・三角色</text>
+
+                    <!-- Two Defense Lines -->
+                    <rect x="20" y="220" width="282" height="96" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+                    <text x="161" y="242" text-anchor="middle" fill="#B45309" font-size="11.5" font-weight="800">🛡️ 防線一：內在心態與心理戰（第 5 講）</text>
+                    <text x="161" y="264" text-anchor="middle" fill="#051C2C" font-size="11" font-weight="700">「沒有非成交不可」＋「對事不對人」</text>
+                    <text x="161" y="284" text-anchor="middle" fill="#475569" font-size="10">雙贏是結果非目的・崩潰前主動喊停</text>
+                    <text x="161" y="302" text-anchor="middle" fill="#B45309" font-size="10" font-weight="700">識破5招：虛張聲勢/負罪感/面子/時間/紅白臉</text>
+
+                    <rect x="318" y="220" width="282" height="96" rx="6" fill="#051C2C" stroke="#38BDF8" stroke-width="2"/>
+                    <text x="459" y="242" text-anchor="middle" fill="#38BDF8" font-size="11.5" font-weight="800">🎙️ 防線二：外在語言與肢體管理（第 6 講）</text>
+                    <text x="459" y="264" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">「態度誠懇・立場堅定・身段柔軟」</text>
+                    <text x="459" y="284" text-anchor="middle" fill="#CBD5E1" font-size="10">拒絕公式（前半關門＋後半指路）</text>
+                    <text x="459" y="302" text-anchor="middle" fill="#FDE68A" font-size="10" font-weight="700">模糊語言潤滑・「如果…就…」打開溝通之門</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：湯君健《有效提升你的谈判能力》全課回顧與知識庫 #008 因果網路分析。</div>
+              </div>
+
+              <!-- Right: Structural Synthesis -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🧭 全課演進脈絡：為什麼三種類型是「循環」而非單向？</div>
+                  <ul class="bucket-list">
+                    <li><strong>層層遞進（由簡到繁）</strong>：第 1 講建立三要點並拆出三種基本模型；第 2～4 講分別展開<strong>價格類、條件類（交換類）、價值類</strong>具體打法；第 5～6 講則為三類共用的底層心態與外顯姿態。</li>
+                    <li><strong>動態循環閉環（#002 明載）</strong>：當對方死不降價時，主動切換到<strong>條件層</strong>交換條款；當現有條款也無解時，升級到<strong>價值層</strong>納入第三方把餅做大；<strong>但餅做大之後仍要分配，最終又會回到價格談判</strong>。</li>
+                    <li><strong>術語校準（#007 確認）</strong>：發刊詞與第 6 講總結稱第 3 講為「交換類談判」，第 3 講標題為「條件類談判」，兩者完全指同一類。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">⚠️ 顧問識別之「課程空白」與補強提醒（知識庫 #008）</div>
+                  <ul class="bucket-list">
+                    <li><strong>空白一｜談判後的履約與覆盤</strong>：原課聚焦於談判桌上的博弈與成交，未展開簽約後的履約監控、變更索賠與長期關係維護（僅在第 5 講點出「短期讓步換不來平等長期關係」）。</li>
+                    <li><strong>空白二｜談判前清單未完全展開</strong>：第 1 講提及講者有「重要談判前工作清單」，但未逐條展開表格；我們已於 <strong>Slide 16 整合為「談判前一頁紙」</strong>供直接落地。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 2: Tool x Chapter Matrix from #008 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>作戰階段／工具維度</th>
+                    <th>#003 價格類談判 (第 2 講)</th>
+                    <th>#004 條件類談判 (第 3 講)</th>
+                    <th>#005 價值類談判 (第 4 講)</th>
+                    <th>#006–#007 心態與姿態防線 (第 5–6 講)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>1. 進場準備</strong></td>
+                    <td>定<strong>底線（機會成本）</strong>、目標價（市場尺子）、拆解供應鏈成本。</td>
+                    <td>盤點 20+ 可談條款，分<strong>主要目標／次要目標／底線條件</strong>。</td>
+                    <td>閱讀完整<strong>價值鏈（含顧客第三方）</strong>、嚴謹計算增量數字。</td>
+                    <td>備妥<strong>離桌替代方案</strong>、說明事前準備（如提前對帳）釋放誠意。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2. 資訊刺探</strong></td>
+                    <td>依資訊對稱度決定<strong>誰先報價</strong>；要求對方解釋報價來源。</td>
+                    <td>中層非正式會議（吹風會）；問<strong>需求確認排序題</strong>與<strong>假設性問題</strong>。</td>
+                    <td>多問對方<strong>未來生意規劃与戰略重點</strong>，找順風車切入點。</td>
+                    <td><strong>絕不問對方底線</strong>，改問對方期望的「理想結果」。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>3. 讓步與交換</strong></td>
+                    <td>不一步到位、做<strong>不情願讓步者</strong>、讓步幅度逐漸縮小。</td>
+                    <td><strong>讓在次要目標保主要目標</strong>、不情願讓步、<strong>雙方同讓（條件換條件）</strong>。</td>
+                    <td>拆成 <strong>A/B/C 三方案</strong>（投入/見效/風險）讓對方選，對準三角色。</td>
+                    <td>多用<strong>「如果…就…」</strong>句型把威脅改寫為條件交換。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>4. 僵局破冰</strong></td>
+                    <td>從「具體使用場景小挑刺」辨識<strong>離桌威脅真偽</strong>。</td>
+                    <td>挖掘對方表面苛刻條件背後的顧慮，提出<strong>最佳可替代方案</strong>。</td>
+                    <td>跳出底邊零和，在<strong>顧客頂點</strong>做文章把三角形面積做大。</td>
+                    <td>情緒快崩<strong>主動喊停</strong>；用<strong>拒絕公式（關門＋指路）</strong>守底線不冷場。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>先用三層模型看清自己身處哪一層，再用內外兩道防線守住底線，任何複雜談判都能游刃有餘。</span>
+              <span>對應來源：全課總結 ｜ 知識庫 #008</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 02 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>全課可高度濃縮為「一核心、三層循環、兩道防線」架構，四個作戰階段（準備、資訊、讓步、破局）在每一層都有對應的具體工具。<br>
+                <strong>② 補充說明：</strong>請特別留意表格中的橫向貫通：例如第 2 講的「底線＝機會成本」直接支撐了第 5 講「沒有非成交不可」的離桌底氣；第 3 講的「條件換條件」則在第 6 講轉化為「如果你們能…我們就…」的語言公式。<br>
+                <strong>③ 下一頁轉場：</strong>掌握全局地圖後，我們正式進入第一講「正確認識談判」，從經典的「兩個小孩分橘子」故事看懂什麼叫表面訴求與真實需求。
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 2 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 03: 第 1 講（上）談判三要點與分橘子啟示 (#002)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-03">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 03 / 16 ｜ LESSON 1 (PART A): THREE ESSENTIALS &amp; THE ORANGE PARABLE (#002)</div>
+              <span class="badge-mck badge-blue">第 1 講：正確認識談判</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 1 講（上）表面訴求不等於真實需求：堅守「以自己目的為先」，透過資訊交換與換位加工挖掘對方的「<span class="hl-gold">橘子皮</span>」
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 3 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 3 ｜ SURFACE POSITION VS. UNDERLYING DEMAND (ORANGE PARABLE)</span>
+                  <span class="exhibit-title">兩個小孩分 5 個橘子：從「零和搶數量」到「皮肉分離雙贏」的冰山結構</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#051C2C"/>
+                    <!-- Waterline -->
+                    <line x1="20" y1="125" x2="580" y2="125" stroke="#38BDF8" stroke-width="2" stroke-dasharray="6,4"/>
+                    <text x="570" y="116" text-anchor="end" fill="#38BDF8" font-size="10" font-weight="700">🌊 水面以上：表面訴求（爭奪 5 個橘子數量）</text>
+                    <text x="570" y="143" text-anchor="end" fill="#FBBF24" font-size="10" font-weight="700">🔍 水面以下：真實需求（透過資訊交換與加工挖掘潛台詞）</text>
+
+                    <!-- Surface Conflict -->
+                    <rect x="35" y="22" width="235" height="86" rx="6" fill="#1E293B" stroke="#64748B"/>
+                    <text x="152" y="44" text-anchor="middle" fill="#F8FAFC" font-size="12" font-weight="800">👦 大孩子表面主張：我要拿 3 個</text>
+                    <text x="152" y="66" text-anchor="middle" fill="#94A3B8" font-size="10.5">策略1 訴諸公平：「我個子大應多分」</text>
+                    <text x="152" y="86" text-anchor="middle" fill="#FCA5A5" font-size="10.5">策略2 訴諸權力：「我年齡大你得聽我的」</text>
+
+                    <rect x="310" y="22" width="235" height="86" rx="6" fill="#1E293B" stroke="#64748B"/>
+                    <text x="427" y="44" text-anchor="middle" fill="#F8FAFC" font-size="12" font-weight="800">👶 小孩子表面主張：我才該多分</text>
+                    <text x="427" y="66" text-anchor="middle" fill="#94A3B8" font-size="10.5">策略1 訴諸公平：「橘子是我先看到的」</text>
+                    <text x="427" y="86" text-anchor="middle" fill="#FCA5A5" font-size="10.5">策略2 訴諸權力：「你欺負我我就告爸爸」</text>
+
+                    <!-- Deep Real Demand -->
+                    <rect x="35" y="156" width="235" height="72" rx="6" fill="#065F46" stroke="#10B981" stroke-width="2"/>
+                    <text x="152" y="180" text-anchor="middle" fill="#6EE7B7" font-size="12" font-weight="800">🍹 大孩子真實需求：要「橘子肉」</text>
+                    <text x="152" y="204" text-anchor="middle" fill="#FFFFFF" font-size="11">目的：榨一杯橘子汁（100% 取得 5 顆果肉）</text>
+
+                    <rect x="310" y="156" width="235" height="72" rx="6" fill="#78350F" stroke="#F59E0B" stroke-width="2"/>
+                    <text x="427" y="180" text-anchor="middle" fill="#FDE68A" font-size="12" font-weight="800">🏮 小孩子真實需求：要「橘子皮」</text>
+                    <text x="427" y="204" text-anchor="middle" fill="#FFFFFF" font-size="11">目的：做小橘燈（100% 取得 5 顆果皮）</text>
+
+                    <!-- Pre-negotiation 7-item checklist bar -->
+                    <rect x="35" y="242" width="510" height="52" rx="6" fill="#0F2942" stroke="#38BDF8"/>
+                    <text x="290" y="262" text-anchor="middle" fill="#38BDF8" font-size="11" font-weight="800">📋 湯君健「重要談判前 7 項工作清單」（理性＋非理性全覆蓋）</text>
+                    <text x="290" y="282" text-anchor="middle" fill="#E2E8F0" font-size="10.5">①需求挖掘 · ②資訊蒐集 · ③利益分析計算 · ④對方喜好性格 · ⑤議程安排 · ⑥會場布置 · ⑦座位安排(靠牆壓迫感)</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 1 講（湯君健，知識庫 #002）。</div>
+              </div>
+
+              <!-- Right: Three Essentials -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🔑 深入拆解談判三大核心要點（缺一不可）</div>
+                  <ul class="bucket-list">
+                    <li><strong>要點一｜以自己的目的為先（向前爭取而非往後讓步）</strong>：包含兩件事——① 首先得明確自己的訴求；② 訴求在談判中絕不能動搖。在崇尚溫良恭儉讓的傳統文化裡，人們普遍害怕衝突、覺得自己「太好說話」，但談判是反其道而行，靠<strong>向前爭取</strong>實現利益。</li>
+                    <li><strong>要點二｜利用人決策中的理性與非理性因素</strong>：影響談判的有利益、立場、情感、價值觀、個人風格。策略可多元並用：擺事實講道理、用利益打動、甚至適時<strong>示弱</strong>。連<strong>「給對方安排靠牆而非靠門的座位以傳遞強烈壓迫感」</strong>都屬於非理性氣場設計。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">🧠 要點三：聯手找方案 ＝ 資訊交換 ＋ 資訊加工</div>
+                  <ul class="bucket-list">
+                    <li><strong>沒有第三方爸爸替你解圍</strong>：現實談判不像分橘子故事有父親出現問出真相，必須靠自己與對方溝通達成結果。</li>
+                    <li><strong>資訊交換（刺探）＋ 資訊加工（讀潛台詞）</strong>：一面不斷刺探對方需求，一面換位思考加工資訊，從表面爭執的「橘子數量」挖出背後的「小橘燈（皮）」與「橘子汁（肉）」。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 3 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>談判準備維度</th>
+                    <th>一般人的狹隘準備</th>
+                    <th>湯君健「重要談判前工作清單」標準</th>
+                    <th>實戰操作要領與經典案例</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>理性計算層面</strong></td>
+                    <td>只算自己想賣多少錢、想砍多少錢。</td>
+                    <td>① 雙方需求挖掘、② 資訊蒐集、③ 利益分析與計算。</td>
+                    <td>分清「橘子（表面標的）」與「橘皮/橘肉（真實用途）」，算出雙方各取所需的空間。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>非理性與人物層面</strong></td>
+                    <td>忽略對手的個人性格與心理防線。</td>
+                    <td>④ 了解對方的個人喜好與性格特點，靈活搭配講道理、利益打動或示弱。</td>
+                    <td>不同性格的外交官或採購，對公平、權力或面子的敏感度截然不同。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>環境與氣場層面</strong></td>
+                    <td>隨便找間會議室坐下就開始談。</td>
+                    <td>⑤ 合理議程安排、⑥ 會場布置、⑦ <strong>座位安排</strong>。</td>
+                    <td>將對手安排在<strong>靠牆而非靠門的座位</strong>，可在心理與氣場上給對方傳遞強烈壓迫感。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>談判不是往後讓步求和平，而是向前爭取；挖出對方的「橘子皮」，才能把零和死局變雙贏。</span>
+              <span>對應來源：1.正確認識談判 ｜ 知識庫 #002</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 03 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>談判三大要點是「以自己目的為先、利用理性與非理性、聯手找方案」，核心在於透過資訊交換與加工，看穿表面訴求背後的真實需求。<br>
+                <strong>② 補充說明：</strong>兩個小孩分 5 個橘子，一開始訴諸公平（個子大 vs 先看到），接著訴諸權力（年紀大 vs 告爸爸），全都卡在「數量分配」。直到挖出一個要皮做小橘燈、一個要肉榨汁，問題瞬間解決。此外，講者連「靠牆座位傳遞壓迫感」都列入談判前清單，證明非理性氣場管理同樣關鍵。<br>
+                <strong>③ 下一頁轉場：</strong>懂了談判三要點後，面對千變萬化的現實場景該從何下手？下一頁我們拆解談判的「三種基本模型」與動態切換策略。
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 3 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 04: 第 1 講（下）三種基本模型與跨層切換 (#002)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-04">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 04 / 16 ｜ LESSON 1 (PART B): THREE NEGOTIATION ARCHETYPES (#002)</div>
+              <span class="badge-mck badge-blue">第 1 講：三種基本類型</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 1 講（下）再複雜的談判皆可拆解為三種基本模型：先辨識所處層次，並在卡關時主動推動談判<span class="hl-blue">跨層升級</span>
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 4 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 4 ｜ THREE NEGOTIATION MODELS &amp; ESCALATION LADDER</span>
+                  <span class="exhibit-title">由簡到繁的三種基本模型與「管教孩子不看電視」三層次實戰演繹</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#F8FAFC" stroke="#CBD5E1"/>
+                    <!-- Step 1: Price -->
+                    <rect x="24" y="168" width="172" height="122" rx="6" fill="#FFFFFF" stroke="#0284C7" stroke-width="2"/>
+                    <rect x="24" y="168" width="172" height="28" rx="6" fill="#0284C7"/>
+                    <text x="110" y="187" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="800">模型 1：價格談判（最簡單）</text>
+                    <text x="110" y="212" text-anchor="middle" fill="#051C2C" font-size="11.5" font-weight="800">零和博弈・餅就這麼大</text>
+                    <text x="110" y="232" text-anchor="middle" fill="#475569" font-size="10">你多咬一口，我就少一塊</text>
+                    <rect x="34" y="244" width="152" height="36" rx="4" fill="#EFF6FF"/>
+                    <text x="110" y="260" text-anchor="middle" fill="#1E3A8A" font-size="10" font-weight="700">📺 孩子看電視案例：</text>
+                    <text x="110" y="274" text-anchor="middle" fill="#1E3A8A" font-size="9.5">你說看3分鐘，他討價5分鐘→4分鐘成交</text>
+
+                    <!-- Step 2: Terms -->
+                    <rect x="214" y="102" width="172" height="188" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+                    <rect x="214" y="102" width="172" height="28" rx="6" fill="#059669"/>
+                    <text x="300" y="121" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="800">模型 2：條件談判（較複雜）</text>
+                    <text x="300" y="146" text-anchor="middle" fill="#051C2C" font-size="11.5" font-weight="800">多條款砝碼・各取所需</text>
+                    <text x="300" y="166" text-anchor="middle" fill="#475569" font-size="10">付款方式/送貨/合格率/戶型</text>
+                    <text x="300" y="184" text-anchor="middle" fill="#047857" font-size="10" font-weight="700">你在乎他不在乎 ⇄ 互換</text>
+                    <rect x="224" y="200" width="152" height="78" rx="4" fill="#ECFDF5"/>
+                    <text x="300" y="218" text-anchor="middle" fill="#065F46" font-size="10" font-weight="700">📺 孩子看電視案例：</text>
+                    <text x="300" y="235" text-anchor="middle" fill="#065F46" font-size="9.5">「現在立刻不看，週末才帶你</text>
+                    <text x="300" y="250" text-anchor="middle" fill="#065F46" font-size="9.5">去公園玩」＝【條件換條件】</text>
+                    <text x="300" y="268" text-anchor="middle" fill="#D97706" font-size="9.5" font-weight="800">↑ 對方死不降價時主動切換至此</text>
+
+                    <!-- Step 3: Value -->
+                    <rect x="404" y="34" width="172" height="256" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="2.5"/>
+                    <rect x="404" y="34" width="172" height="28" rx="6" fill="#D97706"/>
+                    <text x="490" y="53" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="800">模型 3：價值談判（最緊密）</text>
+                    <text x="490" y="78" text-anchor="middle" fill="#051C2C" font-size="11.5" font-weight="800">超越既有條件・創造新價值</text>
+                    <text x="490" y="98" text-anchor="middle" fill="#475569" font-size="10">共同投入把餅做大解決問題</text>
+                    <text x="490" y="116" text-anchor="middle" fill="#B45309" font-size="10" font-weight="700">做大後仍須回到價格分配！</text>
+                    <rect x="414" y="132" width="152" height="82" rx="4" fill="#FFFBEB"/>
+                    <text x="490" y="150" text-anchor="middle" fill="#92400E" font-size="10" font-weight="700">📺 孩子看電視案例：</text>
+                    <text x="490" y="167" text-anchor="middle" fill="#92400E" font-size="9.5">「可以看，但看完後要把裡面</text>
+                    <text x="490" y="182" text-anchor="middle" fill="#92400E" font-size="9.5">的故事給我講一遍」（練表達）</text>
+                    <rect x="414" y="224" width="152" height="54" rx="4" fill="#051C2C"/>
+                    <text x="490" y="242" text-anchor="middle" fill="#38BDF8" font-size="9.5" font-weight="800">🇺🇸 美國國務院外交官13項標準</text>
+                    <text x="490" y="257" text-anchor="middle" fill="#CBD5E1" font-size="8.5">冷靜·文化適應·資訊分析·判斷力·定量</text>
+                    <text x="490" y="270" text-anchor="middle" fill="#CBD5E1" font-size="8.5">口頭/書面溝通·靈活應變·合作·領導等</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 1 講及文末附錄《外事人員標準13條》（知識庫 #002）。</div>
+              </div>
+
+              <!-- Right: Strategic Switching & 13 Qualifications -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🔄 談判高手的動態控盤：識別層次並主動切換</div>
+                  <ul class="bucket-list">
+                    <li><strong>現實談判多為混合體</strong>：三種類型並非非此即彼（例如買房、買二手車、商務採購同時包含價格與多項條件）。</li>
+                    <li><strong>主動推動跨層切換的兩個關鍵時刻</strong>：
+                      <br>① <strong>從價格切向條件</strong>：當發現對方寧可不合作也不願再降價時，立刻試探「有什麼其他條款（交期、付款方式、合格率）可以更改或交換？」
+                      <br>② <strong>從價值回到價格</strong>：找到合作把餅做大的方法後，餅做大了還是要分配，最終仍須回到價格談判完成分配。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">🌐 附錄亮點：美國國務院篩選外交官《外事人員標準 13 條》</div>
+                  <ul class="bucket-list">
+                    <li><strong>為什麼要看外交官標準？</strong>因為影響談判的因素極度多元，要求談判者具備跨維度綜合能力。</li>
+                    <li><strong>13 項維度（13 Dimensions 原文完整收錄）</strong>：① 冷靜、② 文化適應度、③ 外國事務經歷、④ 信息整合和分析、⑤ 創新和領導力、⑥ 判斷力、⑦ 客觀正直、⑧ 口頭溝通、⑨ 計劃和組織、⑩ 定量分析、⑪ 靈活應變、⑫ 和他人合作、⑬ 書面表達。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 4 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>談判基本模型</th>
+                    <th>核心特徵與利益結構</th>
+                    <th>典型商務與生活場景（原文實例）</th>
+                    <th>光電 EPC ／ 供應商採購對應（顧問推論 #002）</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>1. 價格談判</strong></td>
+                    <td>條款極簡，只談價格；<strong>零和博弈</strong>（你多賺 1 元＝對方多虧 1 元）。</td>
+                    <td>一般買賣討價還价；跟孩子商量看電視 3 分鐘 vs 5 分鐘，最後 4 分鐘成交。</td>
+                    <td>標準品現貨採購單價議價（每瓦單價、單台逆變器報價）。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2. 條件談判</strong></td>
+                    <td>包含價格以外的多重砝碼；利用雙方在乎程度差異<strong>各取所需（條件換條件）</strong>。</td>
+                    <td>商務合約談<strong>付款方式（現結/季結）、送貨（自提/送達）、商品合格率</strong>；立刻關電視換週末去公園。</td>
+                    <td>EPC 合約天然屬條件談判：<strong>單價 × 付款里程碑 × 保固年限 × 工期 × 逾期罰則</strong>多維交換。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>3. 價值談判</strong></td>
+                    <td>合作緊密複雜；超越既有條件交換，透過<strong>創造新價值</strong>解決僵局。</td>
+                    <td>讓孩子看完電視後把故事講一遍（創造表達訓練新價值）；電商與手機廠共推女性專機。</td>
+                    <td>納入用電戶、台電或融資方，共創「光儲合一／綠電轉供」增值分潤方案。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>用談判解決問題，不靠命令、祈求或「我是為你好」的情感綁架，而是卡在價格時果斷切向條件與價值層。</span>
+              <span>對應來源：1.正確認識談判 ｜ 知識庫 #002</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 04 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>再複雜的談判都能拆解為「價格、條件、價值」三個基本模型；高手懂得在價格死胡同裡主動把談判推向條件交換或價值創造。<br>
+                <strong>② 補充說明：</strong>講者用「讓孩子別看電視」完美示範了三種模型：討價還價看 4 分鐘是價格談判；現在不看換週末去公園是條件談判；看完講一遍故事則是價值談判。商務上與供應商談付款是當場結還是季結、自提還是送貨、合格率多少，全是條件砝碼。<br>
+                <strong>③ 下一頁轉場：</strong>接下來第 2 到第 4 講，我們將逐一拆解這三種模型的實戰打法。首先進入第 2 講：最考驗心態與基本功的「價格類談判」。
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 4 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 05: 第 2 講（上）價格談判準備：底線、目標與真正懂行 (#003)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-05">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 05 / 16 ｜ LESSON 2 (PART A): PRICE PREP, OPPORTUNITY COST &amp; EXPERTISE (#003)</div>
+              <span class="badge-mck badge-emerald">第 2 講：價格類談判（準備）</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 2 講（上）善戰者立於不敗之地：以<span class="hl-gold">機會成本</span>錨定底線、以市場尺子設定目標，並拆解供應鏈成本做到「真正懂行」
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 5 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 5 ｜ PRICE ANCHORING ZONE &amp; SUPPLY CHAIN COST TEARDOWN</span>
+                  <span class="exhibit-title">底線（機會成本）與目標價區間尺子 × 零售巨頭紅酒採購 6 個月成本拆解法</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#051C2C"/>
+                    <!-- Top Part: Price Ruler -->
+                    <text x="30" y="30" fill="#38BDF8" font-size="11.5" font-weight="800">📏 一、設定「底線價 — 目標價」區間尺子（以賣方視角為例）</text>
+                    <line x1="40" y1="78" x2="560" y2="78" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+                    <line x1="140" y1="78" x2="430" y2="78" stroke="#10B981" stroke-width="8"/>
+
+                    <!-- Bottom Line Node -->
+                    <circle cx="140" cy="78" r="9" fill="#EF4444"/>
+                    <text x="140" y="55" text-anchor="middle" fill="#FCA5A5" font-size="11" font-weight="800">🛑 底線價（例：12.5 元）</text>
+                    <text x="140" y="104" text-anchor="middle" fill="#E2E8F0" font-size="10">心理最低價 或 【機會成本】</text>
+                    <text x="140" y="120" text-anchor="middle" fill="#94A3B8" font-size="9.5">（手上已有12.5元買家，絕不低於此）</text>
+
+                    <!-- Market Reference -->
+                    <rect x="235" y="62" width="110" height="32" rx="4" fill="#0F2942" stroke="#38BDF8"/>
+                    <text x="290" y="82" text-anchor="middle" fill="#38BDF8" font-size="10.5" font-weight="800">市場尺子 3.5~4萬</text>
+
+                    <!-- Target Line Node -->
+                    <circle cx="430" cy="78" r="9" fill="#F59E0B"/>
+                    <text x="430" y="55" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="800">🎯 目標價（例：二手車 4 萬）</text>
+                    <text x="430" y="104" text-anchor="middle" fill="#E2E8F0" font-size="10">跳一跳能拿到・須有充分理由支撐</text>
+                    <text x="430" y="120" text-anchor="middle" fill="#94A3B8" font-size="9.5">（顏色配件稀有可定4萬；報新車價則荒謬）</text>
+
+                    <!-- Bottom Part: Red Wine Supply Chain Teardown -->
+                    <rect x="24" y="142" width="552" height="152" rx="6" fill="#0F2942" stroke="#F59E0B" stroke-width="1.5"/>
+                    <text x="40" y="166" fill="#FBBF24" font-size="11.5" font-weight="800">🍷 二、「想表現得懂行，最好的辦法就是真正懂行」— 零售巨頭中國首席商品官案例</text>
+                    <text x="40" y="186" fill="#CBD5E1" font-size="10.5">30年前紅酒剛進中國，滴酒不沾的女採購花 6 個月上法國紅酒班、跑產地考察、請教供應鏈各環節：</text>
+
+                    <!-- Stacked Cost Breakdown Bar -->
+                    <rect x="40" y="202" width="105" height="44" rx="4" fill="#1E3A8A"/>
+                    <text x="92" y="222" text-anchor="middle" fill="#FFFFFF" font-size="10.5" font-weight="700">🍇 產地年份工藝</text>
+                    <text x="92" y="238" text-anchor="middle" fill="#93C5FD" font-size="9.5">原酒基準成本</text>
+
+                    <rect x="151" y="202" width="95" height="44" rx="4" fill="#0284C7"/>
+                    <text x="198" y="222" text-anchor="middle" fill="#FFFFFF" font-size="10.5" font-weight="700">🍾 包裝材料</text>
+                    <text x="198" y="238" text-anchor="middle" fill="#E0F2FE" font-size="9.5">酒瓶/軟木塞/酒標</text>
+
+                    <rect x="252" y="202" width="95" height="44" rx="4" fill="#0D9488"/>
+                    <text x="299" y="222" text-anchor="middle" fill="#FFFFFF" font-size="10.5" font-weight="700">🏭 儲存與運輸</text>
+                    <text x="299" y="238" text-anchor="middle" fill="#CCFBF1" font-size="9.5">溫控倉儲/海運關稅</text>
+
+                    <rect x="353" y="202" width="95" height="44" rx="4" fill="#D97706"/>
+                    <text x="400" y="222" text-anchor="middle" fill="#FFFFFF" font-size="10.5" font-weight="700">💰 市場平均利潤</text>
+                    <text x="400" y="238" text-anchor="middle" fill="#FEF3C7" font-size="9.5">合理毛利空間</text>
+
+                    <rect x="454" y="202" width="106" height="44" rx="4" fill="#450A0A" stroke="#EF4444" stroke-dasharray="3,2"/>
+                    <text x="507" y="222" text-anchor="middle" fill="#FCA5A5" font-size="10.5" font-weight="800">❌ 供應商虛高水分</text>
+                    <text x="507" y="238" text-anchor="middle" fill="#FCA5A5" font-size="9.5">擺出事實一刀砍除！</text>
+
+                    <text x="300" y="274" text-anchor="middle" fill="#34D399" font-size="11" font-weight="800">⚡《孫子兵法》：「善戰者，立於不敗之地」— 充分調研不是為了占大便宜，而是避免一時衝動吃大虧！</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 2 講（湯君健，知識庫 #003）。</div>
+              </div>
+
+              <!-- Right: Core Insights -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🎯 底線與目標的科學定義：手上有備案就是籌碼</div>
+                  <ul class="bucket-list">
+                    <li><strong>底線＝心理最低價 或 機會成本</strong>：如果低於 12 塊覺得砸牌子，12 塊是心理底線；但若<strong>手上已有 12.5 塊的選擇，成交的機會成本就是 12.5 塊</strong>，絕不能接受更低價。這證明「多備一家報價」本身就能直接墊高底線（#003 資訊亮點）。</li>
+                    <li><strong>目標＝跳一跳能拿到的價格（以市場價為尺子）</strong>：二手車同款行情 3.5～4 萬，因車況顏色稀有定 4 萬合理；若喊出新車價則是不懂行。沒經驗者下手狠卻不知市場價，一開口就被看破不專業。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">🔍 調研深度決策：這場談判對你的長期影響有多大？</div>
+                  <ul class="bucket-list">
+                    <li><strong>反推供應商成本價</strong>：紅酒女採購摸清產地、包裝、存儲、運輸平均成本與合理利潤後，當供應商再拿虛高價忽悠時，直接把一連串價格事實往桌上一擺，對方立刻老實重報。</li>
+                    <li><strong>薪資基數的長期複利效應</strong>：在菜市場花半小時省 10 塊未必值當；但<strong>職場跳槽談薪資，未來的漲薪與換工作都基於過去基數增長</strong>，影響極其深遠，務必做足市場調研。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 5 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>準備核心要素</th>
+                    <th>定義與操作方法</th>
+                    <th>原文實證案例</th>
+                    <th>David 採購／合約落地行動 (#003)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>1. 底線價 (Walk-away Price)</strong></td>
+                    <td>心理最低可接受價，或手頭既有替代選擇的<strong>機會成本</strong>。</td>
+                    <td>手頭已有 12.5 元買家選擇，與新對手談判底線即鎖定為 12.5 元。</td>
+                    <td>在模組／逆變器／施工分包議價前，先取得至少 2–3 家合格備選報價作為機會成本底線。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2. 目標價 (Target Price)</strong></td>
+                    <td>參考市場價這把客觀尺子，「跳一跳能拿到」且備妥支撐理由。</td>
+                    <td>二手車行情 3.5–4 萬，因稀有色與高配鎖定 4 萬目標價。</td>
+                    <td>為下一筆主要採購明確寫出「底線價、目標價」區間與 3 條支撐理由。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>3. 成本結構拆解</strong></td>
+                    <td>深入產業鏈各環節，拆解各項成本與平均毛利，反推對方底牌。</td>
+                    <td>滴酒不沾女採購花 6 個月學紅酒，拆解產地、包裝、儲運反推成本。</td>
+                    <td><strong>☑️ 待辦行動：</strong>對照 <strong>5 家以上實際報價資料</strong>，拆解材料、運輸、施工與利潤結構，反推供應商真實成本區間。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>想表現得懂行，最好的辦法就是真正懂行；把供應鏈成本拆開擺在桌上，虛高報價不攻自破。</span>
+              <span>對應來源：2.價格類談判（準備階段） ｜ 知識庫 #003</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 05 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>價格談判的勝負在進場前就決定了七成：明確機會成本底線与市場目標價，並拆解供應鏈成本做到「真正懂行」。<br>
+                <strong>② 補充說明：</strong>很多新手以為談判就是砍價時下手夠狠，但如果不知道市場行情，只會被對手當成外行。零售巨頭中國首席商品官年輕時採購紅酒，花 6 個月把年份、工藝、產地、包裝、存儲、運輸成本摸得一清二楚，直接反推供應商底價。引用《孫子兵法》：「善戰者，立於不敗之地」，充分調研能確保我們絕不吃大虧。<br>
+                <strong>③ 下一頁轉場：</strong>做好準備走上談判桌後，第一個交鋒時刻就是「誰先報價？該報多少？報完價後該做什麼？」下一頁揭曉報價階段的黃金法則。
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 5 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 06: 第 2 講（中）報價策略：先後手決策與報完價閉嘴 (#003)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-06">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 06 / 16 ｜ LESSON 2 (PART B): QUOTING STRATEGY &amp; SILENCE RULE (#003)</div>
+              <span class="badge-mck badge-emerald">第 2 講：價格類談判（報價）</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 2 講（中）掌握報價主動權：依資訊對稱度決定誰先報價，靈活選用高報價或合理報價，並嚴格執行「<span class="hl-gold">報完價立刻閉嘴</span>」
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 6 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 6 ｜ QUOTING DECISION TREE &amp; THE GOLDEN SILENCE PROTOCOL</span>
+                  <span class="exhibit-title">「誰先報價 × 報多少」決策樹與報價前後動作標準時序圖</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#F8FAFC" stroke="#CBD5E1"/>
+                    <!-- Step 1: Who quotes first -->
+                    <rect x="20" y="16" width="560" height="78" rx="6" fill="#051C2C"/>
+                    <text x="300" y="38" text-anchor="middle" fill="#38BDF8" font-size="11.5" font-weight="800">STEP 1 ｜ 誰先報價？（依「資訊對稱度」二選一）</text>
+                    <rect x="34" y="48" width="258" height="36" rx="4" fill="#0F2942" stroke="#38BDF8"/>
+                    <text x="163" y="64" text-anchor="middle" fill="#FFFFFF" font-size="10.5" font-weight="700">🌫️ 資訊嚴重不對稱／不知怎麼報 → 【後出價】</text>
+                    <text x="163" y="78" text-anchor="middle" fill="#94A3B8" font-size="9.5">被動反而是主動（你想1000，說不定對方上來報200）</text>
+
+                    <rect x="308" y="48" width="258" height="36" rx="4" fill="#065F46" stroke="#10B981"/>
+                    <text x="437" y="64" text-anchor="middle" fill="#FFFFFF" font-size="10.5" font-weight="700">🎯 比對方更懂市場行情 → 【大膽先報價】</text>
+                    <text x="437" y="78" text-anchor="middle" fill="#A7F3D0" font-size="9.5">先發制人掌握主動權，直接降低對方的心理期望值</text>
+
+                    <!-- Step 2: How much to quote -->
+                    <rect x="20" y="106" width="272" height="106" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="2"/>
+                    <text x="156" y="128" text-anchor="middle" fill="#D97706" font-size="11.5" font-weight="800">策略 A：高報價（最常用・上浮5%~100%）</text>
+                    <text x="34" y="148" fill="#051C2C" font-size="10.5" font-weight="700">✓ 好處1 錨定效應：五星酒店報超五星價感受更好</text>
+                    <text x="34" y="166" fill="#051C2C" font-size="10.5" font-weight="700">✓ 好處2 留還價空間：給對方採購總監打電話的面子</text>
+                    <text x="34" y="186" fill="#DC2626" font-size="9.5" font-weight="700">⚠️ 5種不適用：對方熟行情/長期合作/討厭還價/看跌/快走量</text>
+
+                    <rect x="308" y="106" width="272" height="106" rx="6" fill="#FFFFFF" stroke="#0284C7" stroke-width="2"/>
+                    <text x="444" y="128" text-anchor="middle" fill="#0284C7" font-size="11.5" font-weight="800">策略 B：合理報價（不高于市場價）</text>
+                    <text x="322" y="148" fill="#051C2C" font-size="10.5" font-weight="700">✓ 潛台詞：「我給透明價了，拒絕討價還價」</text>
+                    <text x="322" y="166" fill="#051C2C" font-size="10.5" font-weight="700">✓ 前提條件：對自身主張與產品有足夠自信</text>
+                    <text x="322" y="186" fill="#1E3A8A" font-size="9.5" font-weight="700">🛡️ 若對方仍糾纏：主動要求結束談判，維護不議價品牌</text>
+
+                    <!-- Step 3: Universal Execution Sequence -->
+                    <rect x="20" y="224" width="560" height="72" rx="6" fill="#051C2C" stroke="#F59E0B" stroke-width="2"/>
+                    <text x="300" y="245" text-anchor="middle" fill="#FBBF24" font-size="11.5" font-weight="800">⚡ STEP 3 ｜ 兩種報價通用的黃金動作時序（違反順序必顯心虛！）</text>
+                    <text x="300" y="267" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700">【1. 報價前】先說出 1、2、3、4 多條支撐理由  ➔  【2. 報出價格】  ➔  【3. 報完立刻閉嘴沉默】察言觀色等對方出招</text>
+                    <text x="300" y="285" text-anchor="middle" fill="#FCA5A5" font-size="10">❌ 致命錯誤：報完價後再滔滔不絕解釋一大通 → 無論說什麼，對方都會覺得你心虛！</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 2 講（湯君健，知識庫 #003）。</div>
+              </div>
+
+              <!-- Right: Deep Insights -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🏨 為什麼「實價實報」常讓自己陷入絕境？（酒店會務案例）</div>
+                  <ul class="bucket-list">
+                    <li><strong>不留空間就沒法給對方高層面子</strong>：假設五星級酒店會議室底線價就是 5 萬一天，你給對方採購經理直接報了 5 萬實價；結果對方<strong>採購總監親自打電話給你</strong>：「給個面子再降一降，以後單子都放你這。」</li>
+                    <li><strong>兩難困局</strong>：對方老總親自出馬，你若一分錢都降不下來，對方沒面子；你若降了，就跌破 5 萬底線虧本。因此高報價（高於市場價與目標價，上浮 5%～100%，但不可高到顯得沒誠意）能同時實現<strong>錨定效應</strong>與<strong>預留讓步空間</strong>。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">🤐 反直覺實戰鐵律：「報完價立刻閉嘴」</div>
+                  <ul class="bucket-list">
+                    <li><strong>理由必須在「報價前」講完</strong>：在說出數字前，先把與市場價對比、產品優勢一二三四有理有據鋪墊完畢。</li>
+                    <li><strong>報完價馬上沉默、觀察微表情</strong>：一般人報完高價怕對方嫌貴，會急著解釋；但<strong>事後解釋在對手眼裡 100% 等於心虛</strong>！報完價立刻閉嘴，盯著對方表情看他是滿意還是差距太大，等他提還價主張再見招拆招。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 6 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>報價決策維度</th>
+                    <th>策略選項 A</th>
+                    <th>策略選項 B</th>
+                    <th>判準與關鍵操作護欄</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>先後手選擇</strong></td>
+                    <td><strong>等對方先報（後發制人）</strong>：用於標的資訊嚴重不對稱、市場參考極少時。</td>
+                    <td><strong>我方大膽先報（先發奪人）</strong>：用於我方對市場行情掌握度明顯高於對手時。</td>
+                    <td>不知行情時對方報價就是免費情報（防範自己想 1000 對方卻只報 200 的落差）。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>價格水位選擇</strong></td>
+                    <td><strong>高報價（上浮 5%～100%）</strong>：兼具錨定效應與預留給對方領導砍價的台階。</td>
+                    <td><strong>合理報價（不高于市場價）</strong>：適用對方極熟行情、長期夥伴、行情看跌或急走量。</td>
+                    <td>合理報價代表「拒絕討價還價」；若對方仍死纏爛打，應主動結束談判以護品牌。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>發言時序鐵律</strong></td>
+                    <td colspan="2"><strong>報價前：</strong>充分列舉 1、2、3、4 多條客觀支撐理由。</td>
+                    <td><strong>報價後：立刻閉嘴沉默！</strong>嚴禁事後補充解釋，專注觀察對手臉部表情反應。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>理由講在報價前，報完價格立刻閉嘴——沉默是報價後最強大的心理施壓武器。</span>
+              <span>對應來源：2.價格類談判（報價階段） ｜ 知識庫 #003</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 06 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>報價時先依資訊對稱度決定先後手，再依合作關係與行情選擇高報價或合理報價，並嚴格遵守「先講理由、報價後立刻閉嘴」。<br>
+                <strong>② 補充說明：</strong>這頁最值得全體業務與採購立刻練習的動作，就是「報完價立刻閉嘴」。多數人在報出價格後的 3 秒鐘內因為焦慮而開始自我解釋，這會瞬間暴露心虛底牌。把 1234 條理由放在報價前講完，報出數字後微笑沉默看對方反應，主動權就會留在你手上。<br>
+                <strong>③ 下一頁轉場：</strong>當雙方報完價進入多個來回的還價拉鋸時，對手常會使出「不降價我就不談了」的離桌威脅，這時該如何識破真偽並正確讓步？請看下一頁。
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 6 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 07: 第 2 講（下）還價與讓步：離桌威脅判讀與遞減讓步 (#003)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-07">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 07 / 16 ｜ LESSON 2 (PART C): COUNTER-OFFER, WALK-AWAY THREAT &amp; CONCESSION (#003)</div>
+              <span class="badge-mck badge-emerald">第 2 講：價格類談判（還價與讓步）</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 2 講（下）拆解還價拉鋸戰：從「<span class="hl-blue">具體使用場景挑刺</span>」識破假離桌威脅，並做幅度遞減的「不情願讓步者」
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 7 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 7 ｜ WALK-AWAY THREAT DETECTOR &amp; CONCESSION DECAY CURVE</span>
+                  <span class="exhibit-title">「離桌威脅」真偽判讀信號 × 讓步幅度遞減曲線（嚴禁先讓 50 再讓 80）</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#051C2C"/>
+                    <!-- Left: Walk-away threat detector -->
+                    <rect x="18" y="18" width="272" height="274" rx="6" fill="#0F2942" stroke="#38BDF8"/>
+                    <text x="154" y="42" text-anchor="middle" fill="#38BDF8" font-size="11.5" font-weight="800">🔍 一、如何判讀對方的「離桌威脅」？</text>
+                    <text x="154" y="60" text-anchor="middle" fill="#94A3B8" font-size="10">（「你不接受這個價格，我就不談了！」）</text>
+
+                    <rect x="30" y="74" width="248" height="106" rx="5" fill="#065F46" stroke="#10B981" stroke-width="1.5"/>
+                    <text x="154" y="95" text-anchor="middle" fill="#6EE7B7" font-size="11" font-weight="800">🟢 假離桌（成交意願極大！）</text>
+                    <text x="154" y="114" text-anchor="middle" fill="#FFFFFF" font-size="10.5" font-weight="700">特徵：挑毛病有【具體使用場景】且非硬傷</text>
+                    <text x="154" y="134" text-anchor="middle" fill="#D1FAE5" font-size="9.5">• 「這套房子的這個房間擺張床有點擠」</text>
+                    <text x="154" y="150" text-anchor="middle" fill="#D1FAE5" font-size="9.5">• 「這輛車的靠背坐起來感覺有點硬」</text>
+                    <text x="154" y="168" text-anchor="middle" fill="#FDE68A" font-size="9.5" font-weight="700">👉 內心很想要，已帶入成交後使用畫面！</text>
+
+                    <rect x="30" y="192" width="248" height="86" rx="5" fill="#450A0A" stroke="#EF4444" stroke-width="1.5"/>
+                    <text x="154" y="213" text-anchor="middle" fill="#FCA5A5" font-size="11" font-weight="800">🔴 真離桌（準備放棄交易）</text>
+                    <text x="154" y="234" text-anchor="middle" fill="#FFFFFF" font-size="10.5" font-weight="700">特徵：常常【一言不發】直接走人</text>
+                    <text x="154" y="256" text-anchor="middle" fill="#CBD5E1" font-size="9.5">因為已經不準備成交了，根本懶得費口舌挑刺</text>
+
+                    <!-- Right: Concession Decay Curve -->
+                    <rect x="306" y="18" width="276" height="274" rx="6" fill="#0F2942" stroke="#F59E0B"/>
+                    <text x="444" y="42" text-anchor="middle" fill="#FBBF24" font-size="11.5" font-weight="800">📉 二、不情願讓步者的「遞減幅度」鐵律</text>
+
+                    <!-- Correct Bars -->
+                    <text x="322" y="72" fill="#34D399" font-size="10.5" font-weight="800">✓ 正確讓步：幅度逐漸縮小（傳遞到底信號）</text>
+                    <rect x="322" y="82" width="160" height="20" rx="3" fill="#10B981"/>
+                    <text x="490" y="96" fill="#FFFFFF" font-size="10" font-weight="700">第1次讓 50</text>
+                    <rect x="322" y="108" width="80" height="20" rx="3" fill="#10B981"/>
+                    <text x="410" y="122" fill="#FFFFFF" font-size="10" font-weight="700">第2次讓 25</text>
+                    <rect x="322" y="134" width="28" height="20" rx="3" fill="#10B981"/>
+                    <text x="358" y="148" fill="#FFFFFF" font-size="10" font-weight="700">第3次讓 5 (到底)</text>
+
+                    <!-- Wrong Bars -->
+                    <text x="322" y="184" fill="#FCA5A5" font-size="10.5" font-weight="800">❌ 錯誤讓步：先讓 50 再讓 80（引發得寸進尺）</text>
+                    <rect x="322" y="194" width="110" height="20" rx="3" fill="#EF4444"/>
+                    <text x="440" y="208" fill="#FCA5A5" font-size="10" font-weight="700">第1次讓 50</text>
+                    <rect x="322" y="220" width="185" height="20" rx="3" fill="#DC2626"/>
+                    <text x="514" y="234" fill="#FCA5A5" font-size="10" font-weight="700">第2次讓 80！</text>
+                    <text x="444" y="268" text-anchor="middle" fill="#FDE68A" font-size="10" font-weight="700">⚠️ 讓步三要領：①不一步到位 ②不情願 ③幅度遞減</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 2 講（湯君健，知識庫 #003）。</div>
+              </div>
+
+              <!-- Right: Counter-Offer & Concession Rules -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🛡️ 還價的攻防雙招：熟行情擺事實 vs. 不熟行情問明細</div>
+                  <ul class="bucket-list">
+                    <li><strong>當你摸透產業鏈（主動出擊）</strong>：如同紅酒採購案例，把拆解出的各項成本事實往對方眼前一擺，對手知道遇到行家，自然乖乖重報實價。</li>
+                    <li><strong>當你對行情沒那麼熟（以不變應萬變）</strong>：若對方報價時沒給理由，切勿急著拋出自己的觀點，而是<strong>要求對方仔細解釋「他的報價是怎麼算出來的」</strong>，供你拆解判斷。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">🎭 轉化壓力信號：把對方的「挑小毛病」讀成「想買信號」</div>
+                  <ul class="bucket-list">
+                    <li><strong>為什麼挑小毛病代表想成交？</strong>當買家說「這個房間擺張床有點擠」「車子靠背坐起來有點硬」，說明他<strong>腦中已經把自己帶入成交後的使用場景</strong>，且挑的都不是致命硬傷，只是為了砍價找藉口。</li>
+                    <li><strong>讓步的藝術</strong>：快談到可接受點時，千萬<strong>不要一步到位</strong>；要扮演<strong>「不情願的讓步者」</strong>，且每次讓步幅度必須遞減（絕不能第一次讓 50 塊、第二次讓 80 塊，否則對方必定得寸進尺）。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 7 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>還價與收尾情境</th>
+                    <th>對手表面行為／話術</th>
+                    <th>背後真實心理判讀</th>
+                    <th>湯君健標準應對動作</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>1. 虛高報價無理由</strong></td>
+                    <td>只丟出一個籠統高價，未附成本與規格明細。</td>
+                    <td>試探我方是否為外行，企圖利用資訊不對稱賺取超額溢價。</td>
+                    <td>不急著還價，要求對方<strong>逐項解釋報價構成依據</strong>（或直接擺出我方供應鏈拆解數據）。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2. 具體場景挑刺＋威脅</strong></td>
+                    <td>「這房間放床太擠／靠背太硬，不降價我就不買了！」</td>
+                    <td><strong>成交意願極高！</strong>已進入購買後想像，挑刺僅為議價手段。</td>
+                    <td>穩住底線不慌張，溫和化解小顧慮，切勿被假離桌威脅嚇到大跳水。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>3. 沉默無語準備離場</strong></td>
+                    <td>不再挑毛病、一言不發收拾資料。</td>
+                    <td><strong>真離桌信號！</strong>條件差距過大，對方已放棄成交念頭。</td>
+                    <td>若仍在己方底線（機會成本）之上，此時才釋放不情願的遞減讓步或切換至條件談判。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>嫌貨才是買貨人——挑具體使用場景小毛病代表想成交；讓步務必不情願且幅度逐次遞減。</span>
+              <span>對應來源：2.價格類談判（還價階段） ｜ 知識庫 #003</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 07 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>還價階段要懂得從「具體場景挑刺」識破假離桌威脅，並在最後促成交易時做一個幅度遞減的「不情願讓步者」。<br>
+                <strong>② 補充說明：</strong>很多人聽到客戶挑剔「房間擺床有點擠」就慌了手腳趕緊降價，其實真正想走的人是一言不發的，會帶入擺床、坐靠背場景的人心裡早就想買了！而在讓步時，如果第一次讓 50、第二次讓 80，對方會覺得你的底線深不可測而繼續逼迫。<br>
+                <strong>③ 下一頁轉場：</strong>如果價格真的讓到底線還是談不攏怎麼辦？這時就要把談判升級到第 3 講「條件類談判」，用多維度條款交換打開新空間！
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 7 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 08: 第 3 講（上）條件類談判：條款三級分類與兩類提問 (#004)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-08">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 08 / 16 ｜ LESSON 3 (PART A): 3-TIER TERMS &amp; TWO QUESTION TYPES (#004)</div>
+              <span class="badge-mck badge-gold">第 3 講：條件類談判（盤點與提問）</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 3 講（上）「<span class="hl-gold">條款列得多</span>」等同價格開得高：將可談條件分為三級目標，並以非正式會議與假設性問題刺探真實優先序
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 8 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 8 ｜ 3-TIER CONDITION HIERARCHY &amp; DEMAND PROBING FUNNEL</span>
+                  <span class="exhibit-title">條件分級金字塔（主要／次要／底線）× 挖掘對手真實需求的三大管道</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#F8FAFC" stroke="#CBD5E1"/>
+                    <!-- Left: 3-Tier Pyramid -->
+                    <text x="148" y="28" text-anchor="middle" fill="#051C2C" font-size="11.5" font-weight="800">📋 一、盤點所有可談條件並分三級</text>
+                    <text x="148" y="45" text-anchor="middle" fill="#64748B" font-size="9.5">（商鋪租賃列 20 項清單；投融資可達上千條）</text>
+
+                    <rect x="22" y="58" width="252" height="72" rx="6" fill="#051C2C" stroke="#0066CC" stroke-width="2"/>
+                    <text x="148" y="79" text-anchor="middle" fill="#38BDF8" font-size="11" font-weight="800">🥇 1. 主要目標（核心必達）</text>
+                    <text x="148" y="98" text-anchor="middle" fill="#FFFFFF" font-size="10">達成後，其他條款只要在底線上即可答應</text>
+                    <text x="148" y="116" text-anchor="middle" fill="#FDE68A" font-size="9.5">例：月租 3000 元以內 ＋ 付三押一</text>
+
+                    <rect x="22" y="140" width="252" height="72" rx="6" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+                    <text x="148" y="161" text-anchor="middle" fill="#047857" font-size="11" font-weight="800">🥈 2. 次要目標（交換武器）</text>
+                    <text x="148" y="180" text-anchor="middle" fill="#051C2C" font-size="10">能談下最好；可讓步以換取主要目標達成</text>
+                    <text x="148" y="198" text-anchor="middle" fill="#065F46" font-size="9.5">例：免租期原爭取 1 週 → 讓步到 3 天也可</text>
+
+                    <rect x="22" y="222" width="252" height="72" rx="6" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+                    <text x="148" y="243" text-anchor="middle" fill="#DC2626" font-size="11" font-weight="800">🛑 3. 底線條件（絕不可交易）</text>
+                    <text x="148" y="262" text-anchor="middle" fill="#051C2C" font-size="10">完全無法接受、碰觸即破局的紅線條款</text>
+                    <text x="148" y="280" text-anchor="middle" fill="#991B1B" font-size="9.5">例：房東要求「任何情況禁帶朋友來家聚會」</text>
+
+                    <!-- Right: 3 Probing Channels -->
+                    <text x="440" y="28" text-anchor="middle" fill="#051C2C" font-size="11.5" font-weight="800">🔍 二、刺探對手真實需求的三大方法</text>
+                    <text x="440" y="45" text-anchor="middle" fill="#64748B" font-size="9.5">（對手同樣有他的主要／次要／底線條件）</text>
+
+                    <rect x="296" y="58" width="284" height="66" rx="6" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5"/>
+                    <text x="310" y="78" fill="#0284C7" font-size="10.5" font-weight="800">🏛️ 機制：商務「非正式會議（吹風會）」</text>
+                    <text x="310" y="95" fill="#334155" font-size="9.5">高層正式談判前，先派各自中層開吹風會放出風聲、</text>
+                    <text x="310" y="110" fill="#334155" font-size="9.5">刺探反應並同步高層，大幅提高正式會議效率與回旋空間。</text>
+
+                    <rect x="296" y="134" width="284" height="72" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="1.5"/>
+                    <text x="310" y="154" fill="#D97706" font-size="10.5" font-weight="800">❓ 提問 1：需求確認類問題（請對方排序）</text>
+                    <text x="310" y="171" fill="#334155" font-size="9.5">例（招聘談薪）：「若把【薪資、個人發展、職位、行業、</text>
+                    <text x="310" y="186" fill="#334155" font-size="9.5">工作地點】排個順序，你會怎麼排？」→ 確認價值優先級。</text>
+
+                    <rect x="296" y="216" width="284" height="78" rx="6" fill="#051C2C" stroke="#F59E0B" stroke-width="2"/>
+                    <text x="310" y="236" fill="#FBBF24" font-size="10.5" font-weight="800">⚡ 提問 2：假設性問題（給具體方案二選一）</text>
+                    <text x="310" y="253" fill="#FFFFFF" font-size="9.5">當對方排序不真實時：「方案A工資低但有期權 vs 方案B</text>
+                    <text x="310" y="268" fill="#FFFFFF" font-size="9.5">工資高無期權，你選哪個？」→ 選擇直接暴露真實偏好！</text>
+                    <text x="310" y="284" fill="#38BDF8" font-size="9" font-weight="700">💡 氣氛叮嚀：對方說需求時不急著評論，鼓勵多說！</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 3 講（湯君健，知識庫 #004）。</div>
+              </div>
+
+              <!-- Right: Core Insights -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">📑 為什麼「條款列得多」就像價格談判中「開高價」？</div>
+                  <ul class="bucket-list">
+                    <li><strong>條款數量就是你的讓步緩衝池</strong>：講者一年找近 30 個商鋪，把租金、押金幾個月、簽幾年、裝修電器、物業費誰出、轉讓費、能否轉租、能否辦營業執照等列成 <strong>20 項清單</strong>；投融資條款更可達上千條。</li>
+                    <li><strong>移植錨定邏輯（#004 亮點）</strong>：條件列得越多，等於給自己爭取了越大的談判空間，萬一後面需要讓步，手上全是可以拿來交換的「次要目標」武器。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">🎯 創業招人談薪實戰：用低成本牌換高價值人才</div>
+                  <ul class="bucket-list">
+                    <li><strong>盤點己方手上的「低成本高價值牌」</strong>：創業項目工資預算有限（低於市場平均），但「期權、比大公司更高的職位、更多發展機會」是創業者手上成本最低、卻對特定人才收益最高的牌。</li>
+                    <li><strong>假設性問題比直接問更準</strong>：直接問候選人重視什麼，對方未必答得真實；但給出「低薪＋期權 vs 高薪＋無期權」兩個具體方案讓他選，他的選擇會瞬間透露真實價值偏好。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 8 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>條件管理與提問工具</th>
+                    <th>核心操作定義</th>
+                    <th>原文商鋪／招聘案例</th>
+                    <th>David 光電 EPC 合約應用（#004 待辦行動）</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>三級條件分類法</strong></td>
+                    <td>將所有可談條款分為<strong>主要目標、次要目標、底線條件</strong>。</td>
+                    <td>主要：月租≤3000＋付三押一；次要：免租期7天→3天；底線：禁朋友聚會。</td>
+                    <td><strong>☑️ 待辦行動：</strong>把 EPC 標準合約可談條款（單價、預付款比例、驗收期、保固、違約金上限）全列清單並標註三級。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>需求確認類問題</strong></td>
+                    <td>請對方對多個維度進行<strong>優先級排序</strong>，貫穿談判始終。</td>
+                    <td>請面試者排序：薪資、個人發展、職位、行業、工作地點。</td>
+                    <td>請業主或供應商排序：總價、完工併網日、設備品牌、付款條件、維運保固。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>假設性問題</strong></td>
+                    <td>給出兩組<strong>具體條件組合讓對方二選一</strong>，測試真實偏好。</td>
+                    <td>「低薪＋高期權」vs.「高薪＋無期權」，你更願意選哪一個？</td>
+                    <td><strong>☑️ 待辦行動：</strong>準備 2 題假設題（例：「總價不動但尾款延後，或總價降 2% 但預付款提高，您選哪個？」）。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>把可談條款列到極致並分出主次，再用「二選一假設性問題」試出對方的真實底牌。</span>
+              <span>對應來源：3.條件類談判（上） ｜ 知識庫 #004</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 08 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>條件談判的第一步是「把所有可談條款列成清單並分為主要、次要、底線三級」，第二步是用「需求確認排序題」與「假設性選擇題」摸清對方底牌。<br>
+                <strong>② 補充說明：</strong>講者點出一個極高明的觀念：「條款列得多，就好比價格談判中開價報得高。」當你列了 20 項條款，其中 15 項次要目標都能拿來當讓步籌碼，以保護核心的 2 項主要目標。同時要注意氣氛，對方在講需求時千萬別急著反駁或評論，鼓勵他多說才能拿到更多情報。<br>
+                <strong>③ 下一頁轉場：</strong>當雙方條件擺上桌、遇到對方提出你無法接受的苛刻條件時，該如何尋找「最佳可替代方案」並執行讓步三原則？請看下一頁。
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 8 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 09: 第 3 講（下）最佳可替代方案與條件讓步三原則 (#004)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-09">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 09 / 16 ｜ LESSON 3 (PART B): OPTIMAL ALTERNATIVE &amp; 3 CONCESSION PRINCIPLES (#004)</div>
+              <span class="badge-mck badge-gold">第 3 講：條件類談判（交換與讓步）</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 3 講（下）用己方低成本條件換對方高收益條件：尋找優於談崩的<span class="hl-gold">最佳可替代方案</span>，並嚴守「雙方同時讓步」之條件交換原則
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 9 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 9 ｜ OPTIMAL ALTERNATIVE MATRIX &amp; 3 CONCESSION RULES</span>
+                  <span class="exhibit-title">「最佳可替代方案」成本收益矩陣 × 條件讓步三原則（含新空調緩衝帶案例）</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#051C2C"/>
+                    <!-- Left: Optimal Alternative Matrix -->
+                    <rect x="18" y="18" width="275" height="274" rx="6" fill="#0F2942" stroke="#38BDF8"/>
+                    <text x="155" y="42" text-anchor="middle" fill="#38BDF8" font-size="11.5" font-weight="800">💎 一、尋找「最佳可替代方案」</text>
+                    <text x="155" y="60" text-anchor="middle" fill="#94A3B8" font-size="9.5">（當對方提出不可接受條件時，找出背後顧慮替換之）</text>
+
+                    <rect x="30" y="72" width="251" height="84" rx="5" fill="#1E293B" stroke="#64748B"/>
+                    <text x="155" y="92" text-anchor="middle" fill="#FCA5A5" font-size="10.5" font-weight="800">🪑 租房案例：房東要求「一次付清一年租金」</text>
+                    <text x="155" y="110" text-anchor="middle" fill="#CBD5E1" font-size="9.5">溝通發現真實顧慮：怕弄壞屋內收藏的【名貴桌子】</text>
+                    <text x="155" y="128" text-anchor="middle" fill="#34D399" font-size="10" font-weight="700">👉 替代方案①：請房東把名貴桌子搬走</text>
+                    <text x="155" y="145" text-anchor="middle" fill="#34D399" font-size="10" font-weight="700">👉 替代方案②：仍三個月一付，但多放押金</text>
+
+                    <rect x="30" y="168" width="251" height="110" rx="5" fill="#065F46" stroke="#10B981" stroke-width="2"/>
+                    <text x="155" y="190" text-anchor="middle" fill="#6EE7B7" font-size="11" font-weight="800">🏆 最佳可替代方案（不等價互利交換）</text>
+                    <text x="155" y="210" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">用我方【成本最低、收益最高】的 A 條件</text>
+                    <text x="155" y="228" text-anchor="middle" fill="#FDE68A" font-size="11" font-weight="800">⇅ 交換 ⇅</text>
+                    <text x="155" y="246" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">對對方【成本最低、收益最高】的 B 條件</text>
+                    <text x="155" y="266" text-anchor="middle" fill="#A7F3D0" font-size="9.5">（註：隱藏替代方案＝談崩；方案須優於談崩）</text>
+
+                    <!-- Right: 3 Concession Rules -->
+                    <rect x="307" y="18" width="275" height="274" rx="6" fill="#0F2942" stroke="#F59E0B"/>
+                    <text x="444" y="42" text-anchor="middle" fill="#FBBF24" font-size="11.5" font-weight="800">⚖️ 二、條件談判「讓步三原則」</text>
+
+                    <rect x="319" y="58" width="251" height="62" rx="4" fill="#1E293B"/>
+                    <text x="329" y="76" fill="#38BDF8" font-size="10.5" font-weight="800">原則 ①：讓步重點在【次要目標】上</text>
+                    <text x="329" y="94" fill="#CBD5E1" font-size="9.5">犧牲次要目標以保護主要目標；高手甚至在己方</text>
+                    <text x="329" y="109" fill="#CBD5E1" font-size="9.5">低成本小事主動讓步（以退為進顯誠意，換大利益）。</text>
+
+                    <rect x="319" y="130" width="251" height="54" rx="4" fill="#1E293B"/>
+                    <text x="329" y="148" fill="#FBBF24" font-size="10.5" font-weight="800">原則 ②：做【不情願的讓步者】</text>
+                    <text x="329" y="166" fill="#CBD5E1" font-size="9.5">「我要打電話和領導商量一下」／「我做不了主，</text>
+                    <text x="329" y="179" fill="#CBD5E1" font-size="9.5">等我太太決定了明天告訴你。」</text>
+
+                    <rect x="319" y="194" width="251" height="84" rx="4" fill="#78350F" stroke="#F59E0B" stroke-width="1.5"/>
+                    <text x="329" y="214" fill="#FDE68A" font-size="10.5" font-weight="800">原則 ③：雙方一起讓 ＝【條件換條件】</text>
+                    <text x="329" y="232" fill="#FFFFFF" font-size="9.5">房東要「付三押三」（你要付三押二）→ 回應：</text>
+                    <text x="329" y="248" fill="#34D399" font-size="9.5" font-weight="700">「付三押三可以，但空調太舊了，希望換一台新的！」</text>
+                    <text x="329" y="266" fill="#FDE68A" font-size="9">👉 空調成為【緩衝地帶】：對方要嘛換空調，要嘛撤回押三！</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 3 講（湯君健，知識庫 #004）。</div>
+              </div>
+
+              <!-- Right: Deep Insights -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">💡 即使找到可接受方案，依然可以爭取更好方案！</div>
+                  <ul class="bucket-list">
+                    <li><strong>提出條件同樣要給充分理由</strong>：只要有理有據，對方就會嚴肅考慮，即便不能直接答應也會努力想辦法滿足。</li>
+                    <li><strong>千萬不要怕自己要求太多</strong>：條件談判的魅力在於，即便找到了雙方都能接受的方案，你依然可以繼續溝通，尋找對雙方來說都是「成本最低、收益最大」的<strong>最佳可替代方案</strong>（如分橘子皮肉分開）。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">⚠️ 顧問術語校準：湯君健「最佳可替代方案」vs. 哈佛 BATNA（#004）</div>
+                  <ul class="bucket-list">
+                    <li><strong>本講「最佳可替代方案」</strong>：指的是談判桌上<strong>雙方互利的最佳條件交換組合</strong>（用我方低成本 A 換對方低成本 B）。</li>
+                    <li><strong>一般談判學的 BATNA（談判協議最佳替代方案）</strong>：常指<strong>談崩後的退路</strong>，對應本講所說的<strong>「隱藏的可替代方案（談不攏去找別人談）」</strong>。若找不到比談崩更好的方案，離開談判桌也毫無遺憾。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 9 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>條件交換策略</th>
+                    <th>核心邏輯與作用</th>
+                    <th>原文實戰話術／案例</th>
+                    <th>B2B 合約談判落地應用（顧問推論）</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>1. 顧慮替換法</strong></td>
+                    <td>不直接硬頂對方的苛刻條件，而是找出背後擔憂並用低成本方案消弭。</td>
+                    <td>房東要年付是怕弄壞名貴桌子 → 請他搬走桌子或維持季付但加押金。</td>
+                    <td>業主堅持超高履約保證金是怕工期延誤 → 改提供每周進度透明看板與分階段里程碑驗收。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2. 以退為進讓步</strong></td>
+                    <td>在對自己低成本的小事上主動讓步展現高姿態，換取對方在核心利益讓步。</td>
+                    <td>主動答應幾項次要行政配合條款，要求對方守住我方核心價格與付款期。</td>
+                    <td>主動配合業主現場工安標示與周報格式（低成本），換取標準付款天數不延長（核心利益）。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>3. 緩衝地帶反制</strong></td>
+                    <td>當對方強壓讓步時，捆綁提出一項新條件作為「緩衝地帶」防止對方加碼。</td>
+                    <td>「付三押三可以，但房間空調太舊了，希望換一台新的。」（迫使對方二選一）</td>
+                    <td>「單價再降 2% 可以，但預付款須由 10% 調高至 30%，且免除廠驗差旅費分攤。」</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>絕不白白單方面讓步——每一次退讓都必須掛鉤一個新條件（「空調緩衝帶」），讓對方要嘛給補償、要嘛撤回要求。</span>
+              <span>對應來源：3.條件類談判（下） ｜ 知識庫 #004</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 09 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>條件談判的高潮在於尋找「最佳可替代方案」，並嚴格執行讓步三原則：讓在次要目標、做不情願讓步者、雙方同時讓步（條件換條件）。<br>
+                <strong>② 補充說明：</strong>請特別記住「換空調」這個絕妙案例：房東逼你從付三押二退讓到付三押三，你若直接答應，他只會繼續加碼；但你說「付三押三可以，請換一台新空調」，這台空調就是你的防禦緩衝帶，房東為了省空調錢，很可能主動撤回押三的要求！<br>
+                <strong>③ 下一頁轉場：</strong>如果連現有條件都交換殆盡，對方最低價依然夠不到你的最高預算、談判陷入死局時怎麼辦？這就是第 4 講「價值類談判」大顯身手的時刻！
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 9 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 10: 第 4 講（上）價值類談判：閱讀價值鏈與把餅做大 (#005)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-10">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 10 / 16 ｜ LESSON 4 (PART A): READING THE VALUE CHAIN &amp; TRIANGLE MODEL (#005)</div>
+              <span class="badge-mck badge-navy">第 4 講：價值類談判（把餅做大）</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 4 講（上）僵局往往是價值談判的入口：跳出零和底邊博弈，將<span class="hl-gold">第三方（顧客）</span>納入價值鏈三角形以做大利潤總面積
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 10 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 10 ｜ THE VALUE CHAIN TRIANGLE MODEL (EXPANDING THE PIE)</span>
+                  <span class="exhibit-title">湯君健原創「供應商—採購—顧客」價值鏈三角形模型與女性手機破局實證</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <img src="images/value-chain-triangle.jpg" alt="價值鏈三角形模型：納入顧客端擴大總利潤面積" style="max-height: 145px; object-fit: cover; border-radius: 4px; margin-bottom: 8px;">
+                  <svg viewBox="0 0 600 165" width="100%">
+                    <rect width="600" height="165" rx="6" fill="#051C2C"/>
+                    <!-- Triangle Diagram -->
+                    <!-- Original small triangle -->
+                    <polygon points="150,75 65,142 235,142" fill="rgba(56,189,248,0.15)" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="4,3"/>
+                    <!-- Expanded large triangle -->
+                    <polygon points="150,18 45,142 255,142" fill="rgba(245,158,11,0.22)" stroke="#F59E0B" stroke-width="2.5"/>
+
+                    <circle cx="150" cy="18" r="7" fill="#F59E0B"/>
+                    <text x="150" y="12" text-anchor="middle" fill="#FBBF24" font-size="10" font-weight="800">👑 第三方：顧客端（把面積做大！）</text>
+
+                    <circle cx="45" cy="142" r="6" fill="#38BDF8"/>
+                    <text x="45" y="157" text-anchor="middle" fill="#38BDF8" font-size="10" font-weight="800">供應商</text>
+
+                    <circle cx="255" cy="142" r="6" fill="#38BDF8"/>
+                    <text x="255" y="157" text-anchor="middle" fill="#38BDF8" font-size="10" font-weight="800">採購方</text>
+
+                    <text x="150" y="135" text-anchor="middle" fill="#CBD5E1" font-size="9.5">底邊零和博弈（總面積不變）</text>
+                    <text x="150" y="98" text-anchor="middle" fill="#FDE68A" font-size="10.5" font-weight="800">▲ 三角形面積＝總利潤空間</text>
+
+                    <!-- Right Case Box -->
+                    <rect x="295" y="14" width="290" height="138" rx="5" fill="#0F2942" stroke="#10B981" stroke-width="1.5"/>
+                    <text x="440" y="34" text-anchor="middle" fill="#6EE7B7" font-size="11" font-weight="800">📱 電商採購 vs. 國產手機廠破局案例</text>
+                    <text x="307" y="54" fill="#FCA5A5" font-size="9.5">• 僵局：為每台 10 元價差（要與京東同進價）磨一上午</text>
+                    <text x="307" y="71" fill="#FDE68A" font-size="9.5" font-weight="700">• 洞察：做生意要的是【利潤額】，不是好看的【利潤率】</text>
+                    <text x="307" y="88" fill="#FFFFFF" font-size="9.5">• 價值鏈差異：京東男性多 vs. 我方網站【女性顧客居多】</text>
+                    <text x="307" y="106" fill="#34D399" font-size="9.5" font-weight="700">• 共創方案：廠商拿線下女性專機 ＋ 我方給流量/辦購物節</text>
+                    <text x="307" y="122" fill="#34D399" font-size="9.5" font-weight="700">  ＋ 參數頁改為感性展示頁 ➔ 銷量與利潤雙創歷史紀錄！</text>
+                    <text x="307" y="140" fill="#38BDF8" font-size="9">💼 求職同理：25萬vs30萬僵局 → 改談新業務價值換職責權限</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 4 講及原課三角圖（湯君健，知識庫 #005）。</div>
+              </div>
+
+              <!-- Right: Core Insights -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🔓 為什麼「談不下去的僵局」正是價值談判的最佳入口？</div>
+                  <ul class="bucket-list">
+                    <li><strong>破除「利潤率」迷思，聚焦總「利潤額」</strong>：在電商手機採購案中，就算逼供應商降了 10 塊錢拿到與京東同價，也未必賣得過京東。真正做生意要的是總利潤額！</li>
+                    <li><strong>第一步：閱讀價值鏈（納入第三方）</strong>：如果只看「供應商—採購」這條底邊，無論怎麼切分，三角形的總面積（利潤空間）都不變；唯有把<strong>價值鏈上的第三方「顧客」</strong>納入頂點——例如增加符合顧客的新品、提高高毛利商品購買量、減少缺貨帶來的銷售損失——才能把三角形面積撐大！</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">💼 職場談薪與光電 EPC 的價值鏈擴展（原文＋顧問推論）</div>
+                  <ul class="bucket-list">
+                    <li><strong>求職談薪（30 萬 vs. 25 萬僵局）</strong>：HR 預算有限只給 25 萬，若在「我到底值多少錢」爭論不休必陷死局；改談<strong>「我能幫公司開拓什麼新業務價值」</strong>，就能換到更大的職責、權限與項目機會。</li>
+                    <li><strong>光電 EPC 多邊形價值鏈（顧問推論 #005）</strong>：將「業主—承包商」擴展至<strong>終端用電戶、台電電網、綠色金融機構</strong>，透過綠電憑證溢價、儲能削峰填谷或融資利率優化把餅做大。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 10 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>比較維度</th>
+                    <th>傳統零和價格博弈（三角形底邊爭奪）</th>
+                    <th>湯君健價值類談判（三角形頂點擴張）</th>
+                    <th>David 實戰行動指引 (#005)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>關注焦點</strong></td>
+                    <td>死盯單台 10 元價差、追求帳面好看的「利潤率」。</td>
+                    <td>追求雙方共享的總「<strong>利潤額</strong>」與新增市場空間。</td>
+                    <td>當業主砍價超過底線時，停止在單價上拉鋸，轉向計算全生命週期增量收益。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>參與角色範圍</strong></td>
+                    <td>僅限談判桌上的買賣雙方（供應商 vs. 採購）。</td>
+                    <td><strong>閱讀完整價值鏈</strong>，把第三方（終端顧客／用電戶／金融方）拉進來。</td>
+                    <td><strong>☑️ 待辦行動：</strong>挑一個目前卡在價格的案件，畫出含第三方的價值鏈，列出 1 個做大餅的點並粗算數字。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>資源投入方式</strong></td>
+                    <td>單方讓利（你多賺＝我多虧）。</td>
+                    <td><strong>雙方共同投入</strong>（廠商出線下女性機型＋電商出流量辦購物節改頁面）。</td>
+                    <td>提出「我方升級高發電效能設計＋業主提供示範案場聯合公關或長約」共創方案。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>底邊怎麼分，三角形面積都不會變大；唯有把「顧客（第三方）」拉進來，才能把餅做大！</span>
+              <span>對應來源：4.價值類談判（上） ｜ 知識庫 #005</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 10 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>當價格與條件都卡死時，要透過「閱讀價值鏈」把第三方（顧客）納入三角形模型，用共同投入創造增量總利潤額。<br>
+                <strong>② 補充說明：</strong>講者親歷的國產手機採購案非常精采：雙方為每台 10 塊錢僵持一上午，中場休息時講者點醒團隊：我們網站女性用戶多、京東男性用戶多，為什麼不聯合廠商把只走線下的女性手機搬上來？廠商出獨家機型，電商給流量、辦購物節、把冰冷參數頁改成感性展示頁，結果銷量與利潤雙破紀錄！<br>
+                <strong>③ 下一頁轉場：</strong>但是價值談判的利益不是眼前馬上能拿到的，需要對方跟著你一起投入。怎麼把對方拉上你的軌道，並說服對方公司上上下下？請看下一頁。
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 10 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 11: 第 4 講（下）控制關注點與說服決策鏈三角色 (#005)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-11">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 11 / 16 ｜ LESSON 4 (PART B): CONTROLLING FOCUS, ABC OPTIONS &amp; 3 DECISION ROLES (#005)</div>
+              <span class="badge-mck badge-navy">第 4 講：價值類談判（說服與組織）</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 4 講（下）把你的方案塞進對方的主張裡：以「<span class="hl-blue">數字說話、ABC三選項、精準對應拍板／評估／執行人</span>」攻克複雜組織決策
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 11 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 11 ｜ FOCUS CONTROL, A/B/C OPTION DESIGN &amp; 3 DECISION ROLES</span>
+                  <span class="exhibit-title">「把方案塞進對方主張」順風車法 × 說服三大支柱（數字、ABC選項、三角色）</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#F8FAFC" stroke="#CBD5E1"/>
+                    <!-- Top: Piggyback on their strategy -->
+                    <rect x="18" y="14" width="564" height="62" rx="6" fill="#051C2C"/>
+                    <text x="300" y="34" text-anchor="middle" fill="#FBBF24" font-size="11.5" font-weight="800">🛤️ 第一步：控制談判關注點 — 把你的方案變成「共同方案」（搭順風車法）</text>
+                    <text x="300" y="53" text-anchor="middle" fill="#FFFFFF" font-size="10">先問：「關於未來生意你怎麼規劃？」➔ 對方說：「今年戰略是新品新店新渠道」➔ 把你的新品【塞進他的主張裡】！</text>
+                    <text x="300" y="68" text-anchor="middle" fill="#38BDF8" font-size="9.5">（即便方案是你提出的，也要讓對方覺得這是他的方案，至少是雙方共同提出的方案）</text>
+
+                    <!-- Middle: Pillar 1 (Numbers) & Pillar 2 (ABC Options) -->
+                    <rect x="18" y="86" width="210" height="92" rx="6" fill="#FFFFFF" stroke="#0284C7" stroke-width="2"/>
+                    <text x="123" y="108" text-anchor="middle" fill="#0284C7" font-size="11" font-weight="800">📊 說服支柱 ①：用數字說話</text>
+                    <text x="123" y="128" text-anchor="middle" fill="#051C2C" font-size="10.5" font-weight="700">把增量利益嚴謹算出來</text>
+                    <text x="123" y="148" text-anchor="middle" fill="#475569" font-size="9.5">光有創意遠遠不夠，所有推理</text>
+                    <text x="123" y="164" text-anchor="middle" fill="#475569" font-size="9.5">與假設背後都必須有數字支撐</text>
+
+                    <rect x="240" y="86" width="342" height="92" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+                    <text x="411" y="108" text-anchor="middle" fill="#059669" font-size="11" font-weight="800">🗂️ 說服支柱 ②：給出 A / B / C 選擇（主動剖析利弊）</text>
+                    <text x="411" y="126" text-anchor="middle" fill="#475569" font-size="9.5">只給 1 個方案＝逼對方選「同意或不同意」；給 3 個方案＝讓對方選「哪一個」：</text>
+                    <rect x="252" y="134" width="102" height="36" rx="4" fill="#ECFDF5"/>
+                    <text x="303" y="149" text-anchor="middle" fill="#065F46" font-size="9.5" font-weight="800">方案 A（上策）</text>
+                    <text x="303" y="163" text-anchor="middle" fill="#047857" font-size="8.5">投入大・見效快</text>
+                    <rect x="360" y="134" width="102" height="36" rx="4" fill="#F0F7FF"/>
+                    <text x="411" y="149" text-anchor="middle" fill="#1E3A8A" font-size="9.5" font-weight="800">方案 B（中策）</text>
+                    <text x="411" y="163" text-anchor="middle" fill="#0284C7" font-size="8.5">投入與產出均衡</text>
+                    <rect x="468" y="134" width="102" height="36" rx="4" fill="#FFFBEB"/>
+                    <text x="519" y="149" text-anchor="middle" fill="#92400E" font-size="9.5" font-weight="800">方案 C（下策）</text>
+                    <text x="519" y="163" text-anchor="middle" fill="#B45309" font-size="8.5">投入小見效慢好掉頭</text>
+
+                    <!-- Bottom: Pillar 3 (3 Decision Roles) -->
+                    <rect x="18" y="188" width="564" height="108" rx="6" fill="#0F2942" stroke="#D97706" stroke-width="2"/>
+                    <text x="300" y="208" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="800">🎯 說服支柱 ③：有的放矢找對人 — 攻克組織決策鏈三大角色</text>
+
+                    <rect x="30" y="218" width="172" height="68" rx="4" fill="#051C2C" stroke="#F59E0B"/>
+                    <text x="116" y="236" text-anchor="middle" fill="#FBBF24" font-size="10.5" font-weight="800">👑 1. 拍板人（總經理/負責人）</text>
+                    <text x="116" y="253" text-anchor="middle" fill="#FFFFFF" font-size="9.5">關心：大方向、品牌形象、總利潤</text>
+                    <text x="116" y="270" text-anchor="middle" fill="#94A3B8" font-size="9">對策：講宏觀綜合價值，少講細節</text>
+
+                    <rect x="214" y="218" width="172" height="68" rx="4" fill="#051C2C" stroke="#38BDF8"/>
+                    <text x="300" y="236" text-anchor="middle" fill="#38BDF8" font-size="10.5" font-weight="800">🧮 2. 評估人（CFO/財務/骨幹）</text>
+                    <text x="300" y="253" text-anchor="middle" fill="#FFFFFF" font-size="9.5">關心：數據與例子的準確性</text>
+                    <text x="300" y="270" text-anchor="middle" fill="#94A3B8" font-size="9">對策：嚴謹核算 ROI 與實證說服力</text>
+
+                    <rect x="398" y="218" width="172" height="68" rx="4" fill="#051C2C" stroke="#10B981"/>
+                    <text x="484" y="236" text-anchor="middle" fill="#34D399" font-size="10.5" font-weight="800">⚙️ 3. 執行人（業務具體對接者）</text>
+                    <text x="484" y="253" text-anchor="middle" fill="#FFFFFF" font-size="9.5">關心：方案是否足夠【簡單易行】</text>
+                    <text x="484" y="270" text-anchor="middle" fill="#94A3B8" font-size="9">對策：減輕其執行負擔，給標準SOP</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 4 講（湯君健，知識庫 #005）。</div>
+              </div>
+
+              <!-- Right: Core Insights -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🧲 怎麼把對方拉上你的軌道？「塞進對方主張」</div>
+                  <ul class="bucket-list">
+                    <li><strong>先問出對方的規劃，再搭順風車</strong>：不要一上來就推銷自己的點子。先問：「關於未來的生意，你是怎麼規劃的？」「如果我們要一起提升用戶體驗，你打算怎麼做？」</li>
+                    <li><strong>讓對方覺得這是他的方案</strong>：一旦對方說出「今年公司戰略重點是新品、新店、新渠道」，你立刻把自己的新品方案塞進他的戰略主張裡，阻力瞬間降到最低。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">🏢 越複雜的談判，越要照顧到組織上上下下</div>
+                  <ul class="bucket-list">
+                    <li><strong>為什麼給 A/B/C 三個選項更難被拒絕？</strong>單一方案讓對方陷入「要或不要」的二元對立；拆成上策 A（高投入快見效）、中策 B、下策 C（低投入慢見效低風險好掉頭）並主動剖析利弊，能把對方的思維轉向「選哪一個最合適」。</li>
+                    <li><strong>精準擊中三類決策人痛點</strong>：對總經理（拍板人）大談執行細節會讓他不耐煩；對 CFO（評估人）空談情懷沒數據會被否決；對基層窗口（執行人）方案太繁瑣會遭暗中抵制。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 11 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>組織決策角色</th>
+                    <th>典型職位代表</th>
+                    <th>核心利益訴求與關注點</th>
+                    <th>湯君健建議溝通重點與禁忌</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>1. 拍板人 (Approver)</strong></td>
+                    <td>企業負責人、總經理、董事長</td>
+                    <td>企業大方向、社會影響力、品牌知名度、總利潤提升。</td>
+                    <td><strong>強調宏觀、綜合性價值</strong>；切忌過多糾纏技術與執行細節。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2. 評估人 (Evaluator)</strong></td>
+                    <td>CFO、財務總監、資深業務骨幹</td>
+                    <td>財務模型邏輯、數據真實性、過往成功案例可信度。</td>
+                    <td><strong>極度注意數據與例子的準確性</strong>，提供經得起檢驗的精算表。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>3. 執行人 (Executor)</strong></td>
+                    <td>具體業務對接窗口、專案工程師</td>
+                    <td>落地會不會增加麻煩、流程是否<strong>簡單易行</strong>、風險是否可控。</td>
+                    <td><strong>☑️ 待辦行動 (#005)：</strong>提供 A/B/C 三選項（含低風險好掉頭的 C 方案），並把執行步驟簡化到極致。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>先問對方戰略再把方案塞進去；用數字算清利益、給 A/B/C 三個選擇，並對拍板、評估、執行人講不同的話。</span>
+              <span>對應來源：4.價值類談判（下） ｜ 知識庫 #005</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 11 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>推動價值談判落地，必須先透過提問把方案塞進對方的主張裡，再以「數字說話、ABC三方案選擇、對準拍板/評估/執行三角色」完成組織說服。<br>
+                <strong>② 補充說明：</strong>這頁的「拍板人、評估人、執行人」分類，與我們大衛雲 B2B 銷售中的 MEDDIC 模型（EB 經濟決策者、決策標準、內部擁護者）高度契合。很多好方案死掉，是因為拿著給執行人的細節去煩總經理，或者拿著給總經理的口號去敷衍財務總監。<br>
+                <strong>③ 下一頁轉場：</strong>學會了價格、條件、價值三層技巧後，如果在談判桌上心態崩了、或被對方的心理戰嚇住了，再好的技巧也發揮不出來。接下來進入第 5 講：談判中的心態與心理戰應對！
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 11 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 12: 第 5 講（上）談判心態：沒有非成交不可的談判與對事不對人 (#006)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-12">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 12 / 16 ｜ LESSON 5 (PART A): WALK-AWAY MINDSET &amp; WIN-WIN REALITY (#006)</div>
+              <span class="badge-mck badge-crimson" style="background:#991B1B; color:#FFF;">第 5 講：談判心態防線</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 5 講（上）雙贏是結果而非目的：建立「<span class="hl-gold">沒有非成交不可</span>」的離桌底氣，堅持對事不對人並在情緒失控前主動喊停
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 12 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 12 ｜ WALK-AWAY LEVERAGE &amp; EMOTIONAL CIRCUIT BREAKER</span>
+                  <span class="exhibit-title">替代方案數量與對手報價苛刻度關係圖 × 破除「假雙贏」兩大迷思</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#051C2C"/>
+                    <!-- Top Left: Walk-away leverage -->
+                    <rect x="18" y="16" width="275" height="145" rx="6" fill="#0F2942" stroke="#F59E0B" stroke-width="2"/>
+                    <text x="155" y="38" text-anchor="middle" fill="#FBBF24" font-size="11.5" font-weight="800">🔥 心態第一鐵律：沒有非成交不可的談判</text>
+                    <text x="30" y="60" fill="#FFFFFF" font-size="10">• 覺得「必須出結果」＝沒有別的選擇＝一開始就輸了</text>
+                    <text x="30" y="80" fill="#FCA5A5" font-size="10" font-weight="700">• 高手定律：你的【替代方案越少】，對方【報價越苛刻】</text>
+                    <rect x="30" y="94" width="251" height="54" rx="4" fill="#051C2C" stroke="#38BDF8"/>
+                    <text x="155" y="114" text-anchor="middle" fill="#38BDF8" font-size="10.5" font-weight="800">🛡️ 離桌底氣公式（#003 + #006 貫通）</text>
+                    <text x="155" y="134" text-anchor="middle" fill="#E2E8F0" font-size="9.5">充足替代方案(機會成本) ➔ 隨時敢離桌 ➔ 逼出合理報價</text>
+
+                    <!-- Top Right: Win-Win Myth Buster -->
+                    <rect x="307" y="16" width="275" height="145" rx="6" fill="#0F2942" stroke="#EF4444" stroke-width="1.5"/>
+                    <text x="444" y="38" text-anchor="middle" fill="#FCA5A5" font-size="11.5" font-weight="800">⚠️ 破除「雙贏」的兩大直覺錯覺</text>
+                    <text x="319" y="60" fill="#FFFFFF" font-size="10" font-weight="700">❌ 錯覺 1：一團和氣、相谈甚歡就是雙贏</text>
+                    <text x="319" y="77" fill="#94A3B8" font-size="9.5">➔ 真相：過於融洽的談判，往往失去價值創造的機會！</text>
+                    <text x="319" y="100" fill="#FFFFFF" font-size="10" font-weight="700">❌ 錯覺 2：這次先讓步吃虧，換取長期合作關係</text>
+                    <text x="319" y="117" fill="#94A3B8" font-size="9.5">➔ 真相：用短期利益換長期關係，換來的是【不平等關係】！</text>
+                    <text x="444" y="145" text-anchor="middle" fill="#FDE68A" font-size="10.5" font-weight="800">📌 記住：雙贏是結果，不是目的！（目的永遠是「我要」）</text>
+
+                    <!-- Bottom: Principle & Emotional Circuit Breaker -->
+                    <rect x="18" y="175" width="564" height="118" rx="6" fill="#065F46" stroke="#10B981" stroke-width="2"/>
+                    <text x="300" y="198" text-anchor="middle" fill="#6EE7B7" font-size="11.5" font-weight="800">🧘 核心原則：「對事不對人」＋ 高壓情緒管理雙向「主動喊停」機制</text>
+                    <text x="300" y="218" text-anchor="middle" fill="#FFFFFF" font-size="10">分歧只是「暫時無法滿足彼此訴求」，既不是對方太貪婪，也不是自己太過分（避免同理心太強被對方帶節奏）</text>
+
+                    <rect x="32" y="230" width="260" height="50" rx="4" fill="#051C2C"/>
+                    <text x="162" y="250" text-anchor="middle" fill="#38BDF8" font-size="10.5" font-weight="800">⏸️ 情境 A：自己心態快崩時 → 主動喊停</text>
+                    <text x="162" y="268" text-anchor="middle" fill="#CBD5E1" font-size="9.5">沒人規定談判期間不許休息！清理思路，絕不打負氣牌</text>
+
+                    <rect x="308" y="230" width="260" height="50" rx="4" fill="#051C2C"/>
+                    <text x="438" y="250" text-anchor="middle" fill="#FBBF24" font-size="10.5" font-weight="800">⏸️ 情境 B：對方情緒失控時 → 主動喊停</text>
+                    <text x="438" y="268" text-anchor="middle" fill="#CBD5E1" font-size="9.5">先幫對方整理情緒，否則繼續談下去對雙方都不利</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 5 講（湯君健，知識庫 #006）。</div>
+              </div>
+
+              <!-- Right: Core Insights -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">⚡ 顛覆常識：為什麼「用短期讓步換長期關係」是毒藥？</div>
+                  <ul class="bucket-list">
+                    <li><strong>短期妥協只會養成不平等關係</strong>：很多人自我安慰「這次我讓一點步，為了建立長期合作關係，長遠看是雙贏」。湯君健一針見血指出：<strong>用短期利益換來的往往不是好關係，而是不平等的依附關係</strong>！</li>
+                    <li><strong>過於融洽＝放棄深挖價值</strong>：如果雙方一坐下來就客客氣氣、不願碰撞真實訴求，反而不會去逼出第 4 講的「價值創造新方案」。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">🛡️ 防止被「帶節奏」與打「負氣牌」</div>
+                  <ul class="bucket-list">
+                    <li><strong>同理心是雙面刃</strong>：同理心能幫你換位思考理解對方訴求，但<strong>同理心太強的人極易被對手「帶節奏」</strong>。解方是堅守<strong>「對事不對人」</strong>——談不攏只是條件暫不匹配。</li>
+                    <li><strong>像打撲克下棋一樣隨時喊停</strong>：高強度談判中，感覺自己心態有點崩、或觀察到對方情緒失控時，立刻<strong>主動提議中場休息喊停</strong>，絕不意氣用事打負氣牌。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 12 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>心態維度</th>
+                    <th>脆弱談判者的致命誤區</th>
+                    <th>湯君健高手心態標準</th>
+                    <th>進場前／談判中檢核動作 (#006)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>對成交的執念</strong></td>
+                    <td>覺得這單「非成交不可、必須出結果」，導致毫無退路任人宰割。</td>
+                    <td><strong>沒有非成交不可的談判！</strong>隨時具備離開談判桌的底氣與準備。</td>
+                    <td><strong>☑️ 待辦行動：</strong>下一場重要談判前，寫下「若談崩，我的替代方案是什麼」與「對方離桌的可能性」各一行。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>對雙贏與關係的認知</strong></td>
+                    <td>追求表面一團和氣；或委曲求全讓利，幻想換取未來長期照顧。</td>
+                    <td><strong>雙贏是結果，不是目的！</strong>守住「我要」的原則才能贏得平等尊重。</td>
+                    <td>拒絕無條件的「交個朋友價」，任何讓利必須綁定當期可兌現的交換條件。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>對分歧與情緒的反應</strong></td>
+                    <td>覺得對方太貪婪而生氣（打負氣牌），或因同理心過強被帶節奏。</td>
+                    <td><strong>對事不對人</strong>；自己快崩或對方失控時，果斷<strong>主動喊停休息</strong>。</td>
+                    <td>在議程中預留 15 分鐘中場休息（如手機採購案正是靠中場休息想出女性手機破局）。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>沒有非成交不可的談判；短期無端讓步換不來長期好關係，只會換來不平等關係！</span>
+              <span>對應來源：5.談判中的心態和心理戰（上） ｜ 知識庫 #006</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 12 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>談判的第一道內在防線是建立「沒有非成交不可」的離桌底氣，認清「雙贏是結果不是目的」，並以「對事不對人」與「主動喊停」穩住情緒。<br>
+                <strong>② 補充說明：</strong>這頁有兩句極具震撼力的反直覺洞見：第一，「過於融洽的談判往往會失去價值創造的機會」；第二，「用短期利益換長期關係，換來的往往是不平等關係」。因為對手會評估你離桌的可能性，你的替代方案越少，他的報價就越苛刻。<br>
+                <strong>③ 下一頁轉場：</strong>擺正了心態，當對手在談判桌上對你使出各種心理戰伎倆時，該如何「積極防禦」一眼看穿並反制？請看下一頁五大心理戰拆解。
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 12 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 13: 第 5 講（下）積極防禦：識破並反制五種常見談判心理戰 (#006)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-13">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 13 / 16 ｜ LESSON 5 (PART B): ACTIVE DEFENSE AGAINST 5 PSYCHOLOGICAL TACTICS (#006)</div>
+              <span class="badge-mck badge-crimson" style="background:#991B1B; color:#FFF;">第 5 講：心理戰積極防禦</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 5 講（下）建立談判桌上的「<span class="hl-gold">積極防禦</span>」：精準識破虛張聲勢、製造負罪感、面子換裡子、底線時間與紅白臉五大心理戰術
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 13 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 13 ｜ ACTIVE DEFENSE SHIELD AGAINST 5 PSYCHOLOGICAL WARFARE TACTICS</span>
+                  <span class="exhibit-title">五大常見談判心理戰伎倆識別與「積極防禦」反制矩陣</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <img src="images/negotiation-posture-shield.jpg" alt="談判心理戰積極防禦盾牌" style="max-height: 130px; object-fit: cover; border-radius: 4px; margin-bottom: 8px;">
+                  <svg viewBox="0 0 600 180" width="100%">
+                    <rect width="600" height="180" rx="6" fill="#051C2C"/>
+                    <!-- 5 Tactics Cards -->
+                    <rect x="10" y="12" width="110" height="156" rx="5" fill="#0F2942" stroke="#38BDF8"/>
+                    <text x="65" y="32" text-anchor="middle" fill="#38BDF8" font-size="10" font-weight="800">① 虛張聲勢</text>
+                    <text x="65" y="50" text-anchor="middle" fill="#FCA5A5" font-size="9">晾你1小時·西裝一排</text>
+                    <text x="65" y="64" text-anchor="middle" fill="#FCA5A5" font-size="9">厚資料·副總頭銜嚇人</text>
+                    <line x1="20" y1="76" x2="110" y2="76" stroke="#334155"/>
+                    <text x="65" y="94" text-anchor="middle" fill="#34D399" font-size="9.5" font-weight="700">🛡️ 家樂福信條</text>
+                    <text x="65" y="110" text-anchor="middle" fill="#E2E8F0" font-size="8.5">偉大名片背後常是</text>
+                    <text x="65" y="123" text-anchor="middle" fill="#E2E8F0" font-size="8.5">沒啥能力的銷售員；</text>
+                    <text x="65" y="138" text-anchor="middle" fill="#FDE68A" font-size="8.5">穿更嚴謹增強自信</text>
+
+                    <rect x="128" y="12" width="110" height="156" rx="5" fill="#0F2942" stroke="#38BDF8"/>
+                    <text x="183" y="32" text-anchor="middle" fill="#38BDF8" font-size="10" font-weight="800">② 製造負罪感</text>
+                    <text x="183" y="50" text-anchor="middle" fill="#FCA5A5" font-size="9">放大產品小缺點</text>
+                    <text x="183" y="64" text-anchor="middle" fill="#FCA5A5" font-size="9">挑數字邏輯讓你理虧</text>
+                    <line x1="138" y1="76" x2="228" y2="76" stroke="#334155"/>
+                    <text x="183" y="94" text-anchor="middle" fill="#34D399" font-size="9.5" font-weight="700">🛡️ 辨真偽＋反挑刺</text>
+                    <text x="183" y="110" text-anchor="middle" fill="#E2E8F0" font-size="8.5">熟自家產品：真問題</text>
+                    <text x="183" y="123" text-anchor="middle" fill="#E2E8F0" font-size="8.5">正視拉回，偽問題笑</text>
+                    <text x="183" y="138" text-anchor="middle" fill="#FDE68A" font-size="8.5">過；以牙還牙挑瑕疵</text>
+
+                    <rect x="246" y="12" width="110" height="156" rx="5" fill="#0F2942" stroke="#F59E0B"/>
+                    <text x="301" y="32" text-anchor="middle" fill="#FBBF24" font-size="10" font-weight="800">③ 面子換裡子</text>
+                    <text x="301" y="50" text-anchor="middle" fill="#FCA5A5" font-size="9">軟刀子貼心給台階</text>
+                    <text x="301" y="64" text-anchor="middle" fill="#FCA5A5" font-size="9">「這是突破/幫你跟老闆說」</text>
+                    <line x1="256" y1="76" x2="346" y2="76" stroke="#334155"/>
+                    <text x="301" y="94" text-anchor="middle" fill="#34D399" font-size="9.5" font-weight="700">🛡️ 守底線＋讚對手</text>
+                    <text x="301" y="110" text-anchor="middle" fill="#E2E8F0" font-size="8.5">面子道謝，裡子堅守</text>
+                    <text x="301" y="123" text-anchor="middle" fill="#E2E8F0" font-size="8.5">不可交易原則；結束</text>
+                    <text x="301" y="138" text-anchor="middle" fill="#FDE68A" font-size="8.5">時無論輸贏讚揚對手</text>
+
+                    <rect x="364" y="12" width="110" height="156" rx="5" fill="#0F2942" stroke="#38BDF8"/>
+                    <text x="419" y="32" text-anchor="middle" fill="#38BDF8" font-size="10" font-weight="800">④ 底線時間</text>
+                    <text x="419" y="50" text-anchor="middle" fill="#FCA5A5" font-size="9">壓最後期限（三天）</text>
+                    <text x="419" y="64" text-anchor="middle" fill="#FCA5A5" font-size="9">「過了這村沒這店」</text>
+                    <line x1="374" y1="76" x2="464" y2="76" stroke="#334155"/>
+                    <text x="419" y="94" text-anchor="middle" fill="#34D399" font-size="9.5" font-weight="700">🛡️ 反問壓力來源</text>
+                    <text x="419" y="110" text-anchor="middle" fill="#E2E8F0" font-size="8.5">「為什麼是三天？」</text>
+                    <text x="419" y="123" text-anchor="middle" fill="#E2E8F0" font-size="8.5">「是誰給你時間壓力？」</text>
+                    <text x="419" y="138" text-anchor="middle" fill="#FDE68A" font-size="8.5">把問題丟回給對方</text>
+
+                    <rect x="482" y="12" width="108" height="156" rx="5" fill="#0F2942" stroke="#F59E0B"/>
+                    <text x="536" y="32" text-anchor="middle" fill="#FBBF24" font-size="10" font-weight="800">⑤ 紅白臉</text>
+                    <text x="536" y="50" text-anchor="middle" fill="#FCA5A5" font-size="9">白臉施壓威脅離桌</text>
+                    <text x="536" y="64" text-anchor="middle" fill="#FCA5A5" font-size="9">紅臉打圓場勸你讓步</text>
+                    <line x1="492" y1="76" x2="580" y2="76" stroke="#334155"/>
+                    <text x="536" y="94" text-anchor="middle" fill="#34D399" font-size="9.5" font-weight="700">🛡️ 點破＋指定代表</text>
+                    <text x="536" y="110" text-anchor="middle" fill="#E2E8F0" font-size="8.5">大方點破「別演紅白</text>
+                    <text x="536" y="123" text-anchor="middle" fill="#E2E8F0" font-size="8.5">臉，我到底跟誰談？」</text>
+                    <text x="536" y="138" text-anchor="middle" fill="#FDE68A" font-size="8.5">雙方人數最好對等</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 5 講（湯君健，知識庫 #006）。</div>
+              </div>
+
+              <!-- Right: Deep Insights -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🛡️ 什麼是「積極防禦」？看穿演戲、拉回軌道</div>
+                  <ul class="bucket-list">
+                    <li><strong>學心理戰不是為了耍花招，而是為了不被套路</strong>：在熟手面前，心理戰伎倆很容易被識破；但如果你不懂，就會被「晾在門外一小時＋一排副總名頭」嚇到拱手讓利。</li>
+                    <li><strong>家樂福談判信條</strong>：講者極欣賞老對手家樂福的一句話——<strong>「在一個偉大的商標或者名片背後，你總可以發現一個沒啥能力的銷售人員。」</strong>永遠專注於談判條件本身，不被頭銜震懾。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">🎭 最危險的「軟刀子」與團隊「紅白臉」破局術</div>
+                  <ul class="bucket-list">
+                    <li><strong>防範「面子換裡子」</strong>：高手逼你讓步時不會一味施壓，反而會貼心幫你找台階：「這怎麼算讓步？這是你們前所未有的突破啊！你老闆怪罪下來我去幫你說。」面子上要感謝對方，裡子上<strong>死守不可交易原則</strong>；且談判結束無論輸贏都要記得讚揚對手。</li>
+                    <li><strong>直接拆穿「紅白臉」</strong>：認清凶的白臉不是真生氣、和藹的紅臉也不是對你好，兩人都在戴面具演戲。大方指出：<strong>「朋友，你們兩個就不要扮演紅白臉啦，我到底是和誰在談？」</strong>要求指定全權代表，且雙方出席人數最好對等。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 13 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>心理戰術名稱</th>
+                    <th>對手典型施壓表現</th>
+                    <th>「積極防禦」核心心法</th>
+                    <th>立即可用的反制話術／行動 (#006)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>1. 虛張聲勢</strong></td>
+                    <td>故意晾在會議室外等 1 小時；一排高管、厚資料擺派頭。</td>
+                    <td>記住「家樂福信條」，不被名頭嚇住，專注標的本身。</td>
+                    <td>穿著更嚴謹的裝束進場增強自信，直接切入實質條款討論。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2. 製造負罪感</strong></td>
+                    <td>抓小缺點不斷放大讓你內疚；一報數字就挑戰邏輯讓你下不來台。</td>
+                    <td>極度熟悉自家產品以<strong>分辨真問題與偽問題</strong>。</td>
+                    <td>真問題正視解決並拉回主題；偽問題笑笑帶過；必要時<strong>反挑對方瑕疵以牙還牙</strong>。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>3. 面子換裡子</strong></td>
+                    <td>給足台階（「幫你跟老闆解釋」「這是大突破」），誘使讓出實質利益。</td>
+                    <td>區分「面子（虛榮台階）」與「裡子（真金白銀）」。</td>
+                    <td>「謝謝您替我考慮，但這條是公司底線無法交易。」（結束時記得讚揚對手給面子）。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>4. 底線時間</strong></td>
+                    <td>給 3 天最後期限威脅「過了這村沒這店」。</td>
+                    <td>把時間壓力反彈回對方身上，拉回共同找方案。</td>
+                    <td>反問：<strong>「為什麼是三天？時間這麼緊對你有好處嗎？是誰給你時間壓力的？」</strong></td>
+                  </tr>
+                  <tr>
+                    <td><strong>5. 紅白臉</strong></td>
+                    <td>白臉拍桌威脅不談（降預期），紅臉打圓場勸讓步（防繃斷）。</td>
+                    <td>看穿兩人都在戴面具演戲，拒絕一對二被夾擊。</td>
+                    <td><strong>「朋友，你們別演紅白臉啦，我到底是和誰在談？請指定一位全權代表。」</strong>（人數對等）。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>偉大名片背後常是普通銷售；遇到期限反問誰給壓力，遇到紅白臉直接點破並要求指定全權代表。</span>
+              <span>對應來源：5.談判中的心態和心理戰（下） ｜ 知識庫 #006</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 13 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>面對「虛張聲勢、製造負罪感、面子換裡子、底線時間、紅白臉」五大心理戰，只要一眼識破套路並用標準話術反問或點破，就能瞬間把談判拉回己方軌道。<br>
+                <strong>② 補充說明：</strong>請各位回想最近 3 場業主或供應商談判，對方是不是常用「只剩三天」（底線時間）或「採購經理扮黑臉、工程師扮白臉」（紅白臉）？下次遇到最後期限，直接微笑反問「為什麼是三天？是誰給你時間壓力的？」就能把球踢回對方腳下。<br>
+                <strong>③ 下一頁轉場：</strong>築起了第 5 講的內在心態防線，我們該如何透過外在的語言與身體語言展現宗師級氣場？接下來進入第 6 講：語言與肢體語言管理！
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 13 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 14: 第 6 講 ｜ 語言與肢體語言管理：誠懇、堅定、柔軟與拒絕公式 (#007)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-14">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 14 / 16 ｜ LESSON 6: POSTURE CONSISTENCY, REFUSAL FORMULA &amp; BODY LANGUAGE (#007)</div>
+              <span class="badge-mck badge-blue">第 6 講：語言與肢體語言管理</span>
+            </div>
+            <h2 class="mck-action-title">
+              第 6 講 以不變應萬變的談判姿態：貫徹「<span class="hl-blue">態度誠懇、立場堅定、身段柔軟</span>」，善用拒絕公式與「如果…就…」打開溝通之門
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 14 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 14 ｜ THE 3-PILLAR POSTURE MATRIX &amp; REFUSAL FORMULA</span>
+                  <span class="exhibit-title">老領導「三句話」中立姿態 × 語言與肢體一致性執行圖譜</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#F8FAFC" stroke="#CBD5E1"/>
+                    <!-- Top Header -->
+                    <rect x="16" y="12" width="568" height="40" rx="5" fill="#051C2C"/>
+                    <text x="300" y="36" text-anchor="middle" fill="#FBBF24" font-size="11.5" font-weight="800">🎯 一致性原則：語言與身體必須和「談判者姿態」一致（無論強弱勢皆以不變應萬變）</text>
+
+                    <!-- Pillar 1: Sincere Attitude -->
+                    <rect x="16" y="62" width="182" height="162" rx="6" fill="#FFFFFF" stroke="#0284C7" stroke-width="2"/>
+                    <rect x="16" y="62" width="182" height="26" rx="6" fill="#0284C7"/>
+                    <text x="107" y="79" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="800">① 態度要誠懇（釋放誠意）</text>
+                    <text x="26" y="102" fill="#051C2C" font-size="9.5" font-weight="800">💬 語言管理：</text>
+                    <text x="26" y="117" fill="#334155" font-size="9">• 問看法與【理想結果】</text>
+                    <text x="26" y="131" fill="#DC2626" font-size="9" font-weight="700">• 切忌開口問對方底線！</text>
+                    <text x="26" y="145" fill="#334155" font-size="9">• 說明事前準備（提前對帳）</text>
+                    <text x="26" y="166" fill="#051C2C" font-size="9.5" font-weight="800">🕺 身體語言：</text>
+                    <text x="26" y="181" fill="#334155" font-size="9">• 多點頭＋眼神交流</text>
+                    <text x="26" y="195" fill="#334155" font-size="9">• 身體微前傾（不靠椅背）</text>
+                    <text x="26" y="209" fill="#334155" font-size="9">• 雙手攤開手掌放鬆（不抱胸）</text>
+
+                    <!-- Pillar 2: Firm Stance -->
+                    <rect x="209" y="62" width="182" height="162" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="2"/>
+                    <rect x="209" y="62" width="182" height="26" rx="6" fill="#D97706"/>
+                    <text x="300" y="79" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="800">② 立場要堅定（守住底線）</text>
+                    <text x="219" y="102" fill="#051C2C" font-size="9.5" font-weight="800">💬 語言管理：【拒絕公式】</text>
+                    <text x="219" y="117" fill="#B45309" font-size="9" font-weight="700">• 前半句：把立場告訴他(關門)</text>
+                    <text x="219" y="131" fill="#047857" font-size="9" font-weight="700">• 後半句：別處找解決方案(指路)</text>
+                    <text x="219" y="145" fill="#334155" font-size="9">例：交貨期不能改➔談縮短收貨</text>
+                    <text x="219" y="166" fill="#051C2C" font-size="9.5" font-weight="800">🕺 身體語言（手與腳）：</text>
+                    <text x="219" y="181" fill="#334155" font-size="9">• 手掌向下做【按下動作】控場</text>
+                    <text x="219" y="195" fill="#334155" font-size="9">• 結尾有力一揮或指天空</text>
+                    <text x="219" y="209" fill="#334155" font-size="9">• 雙腳如【種在地上】貼地不晃</text>
+
+                    <!-- Pillar 3: Flexible Approach -->
+                    <rect x="402" y="62" width="182" height="162" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+                    <rect x="402" y="62" width="182" height="26" rx="6" fill="#059669"/>
+                    <text x="493" y="79" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="800">③ 身段要柔軟（溝通開門）</text>
+                    <text x="412" y="102" fill="#051C2C" font-size="9.5" font-weight="800">💬 語言管理：</text>
+                    <text x="412" y="117" fill="#334155" font-size="9">• 多用【模糊語言】少徹底否定</text>
+                    <text x="412" y="131" fill="#334155" font-size="9">  (不說不可能➔說方案不咋地)</text>
+                    <text x="412" y="145" fill="#047857" font-size="9" font-weight="700">• 多用「如果你們能…我們就…」</text>
+                    <text x="412" y="166" fill="#051C2C" font-size="9.5" font-weight="800">🕺 身體語言：</text>
+                    <text x="412" y="181" fill="#334155" font-size="9">• 身體放鬆不聳肩</text>
+                    <text x="412" y="195" fill="#334155" font-size="9">• 力量放胳膊，不雙手撐桌</text>
+                    <text x="412" y="209" fill="#334155" font-size="9">• 反駁時保持微笑或玩笑語氣</text>
+
+                    <!-- Bottom Refusal Formula Highlight Bar -->
+                    <rect x="16" y="234" width="568" height="64" rx="6" fill="#051C2C" stroke="#F59E0B" stroke-width="2"/>
+                    <text x="300" y="254" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="800">🔑 必背萬用「拒絕公式」＝ 【前半句表明不可退讓立場（關上一扇門）】＋【後半句提出別處找方案（指向另一條路）】</text>
+                    <text x="300" y="274" text-anchor="middle" fill="#FFFFFF" font-size="10">範例 1：「關於交貨時間，真的沒有再改的可能了；與其繼續討論這個，不如我們討論貨到你們倉庫後怎麼縮短收貨時間。」</text>
+                    <text x="300" y="290" text-anchor="middle" fill="#38BDF8" font-size="10">範例 2：「關於租金，真的沒有再降的空間了；如果你們能夠馬上確認入住時間，免租期我們倒是可以討論。」</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：得到APP《有效提升你的谈判能力》第 6 講（湯君健，知識庫 #007）。</div>
+              </div>
+
+              <!-- Right: Core Insights -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">❓ 為什麼千萬不要在談判中「問對方的底線」？</div>
+                  <ul class="bucket-list">
+                    <li><strong>問底線的兩大壞處</strong>：很多人習慣一開口就問「你們底線到底是多少？」第一，對方根本不可能告訴你真底線；第二，<strong>問底線意味著你完全沒打算幫對方實現他的目標</strong>，瞬間破壞合作氣氛。</li>
+                    <li><strong>正確做法：問「理想結果」＋秀「事前準備」</strong>：改問「我想聽聽您的意見，您期望的理想結果是什麼？」並主動告知「見面前我特地找前任經理把之前的帳提前對好了」，誠意立現。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">⚙️ 西方外交諺語：「外交的車輪滾滾，全靠模糊的語言潤滑」</div>
+                  <ul class="bucket-list">
+                    <li><strong>不把話說死（模糊語言）</strong>：不贊同對方方案時，別說「你這方案是不可能的」，改說「你這個方案不咋地啊」；對方產品合格率不到 85% 卻要求免檢時，別罵「這麼爛還想免檢」，改說<strong>「你們公司的產品質量我們是有數的，質檢是必須的」</strong>。</li>
+                    <li><strong>把威脅改寫成「如果…就…」</strong>：與其威脅「30 號不打款我就斷貨」，不如說<strong>「如果 30 號之前貨款能夠到，我們就發貨」</strong>——這正是第 3 講「條件換條件」的語言版本！</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 14 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>老領導三句話姿態</th>
+                    <th>錯誤的語言與肢體表現（暴露底牌或引發逆反）</th>
+                    <th>正確的語言公式（原文金句）</th>
+                    <th>正確的肢體語言配合</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>1. 態度要誠懇</strong></td>
+                    <td>直接逼問「你底線多少？」；身體後仰靠椅背、雙手抱胸或握拳。</td>
+                    <td>「我想聽聽您的意見／理想結果是什麼？」「見面前我已把帳提前對好了。」</td>
+                    <td>哪怕不認可對方也<strong>多點頭＋眼神交流</strong>；身體微前傾、雙手攤開手掌放鬆。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2. 立場要堅定</strong></td>
+                    <td>拉不下臉不敢拒絕，或生硬拒絕導致全場冷場僵死；雙腳亂晃坐立不安。</td>
+                    <td><strong>☑️ 拒絕公式 (#007)：</strong>「單價真的沒空間了（關門），不如我們討論付款期程與免租/保固期怎麼調整（指路）。」</td>
+                    <td>手掌向下做<strong>按下動作</strong>（暗示掌控局勢），結尾有力一揮；<strong>雙腳如種在地上貼地不動</strong>。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>3. 身段要柔軟</strong></td>
+                    <td>用徹底否定句把話說死（「絕對不可能」）、最後通牒威脅；聳肩、雙手撐桌。</td>
+                    <td>模糊語言＋<strong>「如果你們在 A 方面讓步，我們也可以在 B 方面讓步。」</strong></td>
+                    <td>肩膀放鬆、力量自然放胳膊上；<strong>反駁對方時保持微笑或用開玩笑語氣</strong>。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>好的談判者「利益與尊重兼得」——用拒絕公式關上一扇門同時指另一條路，用手掌下壓與雙腳種地穩住氣場。</span>
+              <span>對應來源：6.談判中語言和肢體語言管理 ｜ 知識庫 #007</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 14 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>無論處於強勢或弱勢，最佳談判姿態永遠是老領導總結的三句話：「態度要誠懇，立場要堅定，身段要柔軟」，並確保語言與肢體高度一致。<br>
+                <strong>② 補充說明：</strong>這頁的「拒絕公式」解決了多數人拉不下臉說不、或說不之後場面僵掉的痛點。記住結構：前半句堅決關門表明底線，後半句立刻指向另一個可談的條件維度。搭配手掌向下按壓與雙腳種在地上，你的堅定度會直接改變對方的心理預期。<br>
+                <strong>③ 下一頁轉場：</strong>學完了全部六講，我們如何將這套方法論內部貫通，並與大衛雲既有的 B2B 顧問式銷售（MEDDIC）結合？請看倒數第二頁的跨教材整合分析。
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 14 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 15: 跨教材整合 ｜ 全課八條橫向因果鏈 × MEDDIC 銷售協同 (#008)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-15">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 15 / 16 ｜ CROSS-MODULE SYNTHESIS: 8 CAUSAL CHAINS &amp; MEDDIC INTEGRATION (#008)</div>
+              <span class="badge-mck badge-gold">顧問跨教材整合</span>
+            </div>
+            <h2 class="mck-action-title">
+              跨教材深度整合：串聯全課<span class="hl-gold">八條橫向因果鏈</span>，並將湯君健「三層談判模型」與大衛雲「MEDDIC 顧問式銷售」交叉對齊
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 15 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 15 ｜ 8 CROSS-LESSON CAUSAL CHAINS &amp; MEDDIC SYNERGY</span>
+                  <span class="exhibit-title">知識庫 #008 八條橫向因果鏈與「前段 MEDDIC 銷售 × 後段湯君健談判」雙引擎圖</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#051C2C"/>
+                    <text x="300" y="26" text-anchor="middle" fill="#FBBF24" font-size="11.5" font-weight="800">🔗 一、全課八條橫向因果鏈（前一講的工具如何成為後一講的前提｜#008）</text>
+
+                    <!-- 4 Pairs of Causal Chains -->
+                    <rect x="18" y="38" width="275" height="40" rx="4" fill="#0F2942" stroke="#38BDF8"/>
+                    <text x="28" y="55" fill="#38BDF8" font-size="9.5" font-weight="800">鏈 1：#003 底線＝機會成本 ➔ #006 沒有非成交不可</text>
+                    <text x="28" y="70" fill="#CBD5E1" font-size="9">依據：手上有具體替代報價，心態上才真正有離桌底氣</text>
+
+                    <rect x="307" y="38" width="275" height="40" rx="4" fill="#0F2942" stroke="#38BDF8"/>
+                    <text x="317" y="55" fill="#38BDF8" font-size="9.5" font-weight="800">鏈 2：#004 隱藏替代方案＝談崩 ➔ #006 離桌準備</text>
+                    <text x="317" y="70" fill="#CBD5E1" font-size="9">依據：同一概念由條件比較技巧升維為底層談判心態</text>
+
+                    <rect x="18" y="86" width="275" height="40" rx="4" fill="#0F2942" stroke="#10B981"/>
+                    <text x="28" y="103" fill="#34D399" font-size="9.5" font-weight="800">鏈 3：#002 表面≠真實需求 ➔ #004 假設題 ➔ #005 價值鏈</text>
+                    <text x="28" y="118" fill="#CBD5E1" font-size="9">依據：橘子皮挖得越深，可交換條款與把餅做大空間越大</text>
+
+                    <rect x="307" y="86" width="275" height="40" rx="4" fill="#0F2942" stroke="#10B981"/>
+                    <text x="317" y="103" fill="#34D399" font-size="9.5" font-weight="800">鏈 4–6：#003 價格卡關 ➔ #004 條件 ➔ #005 做大回分配</text>
+                    <text x="317" y="118" fill="#CBD5E1" font-size="9">依據：三層循環升級，做大餅後仍須回到價格分配(#002)</text>
+
+                    <rect x="18" y="134" width="275" height="40" rx="4" fill="#0F2942" stroke="#F59E0B"/>
+                    <text x="28" y="151" fill="#FBBF24" font-size="9.5" font-weight="800">鏈 7：#003 不情願讓步 ➔ #004 讓步三原則 ➔ #007 如果…就</text>
+                    <text x="28" y="166" fill="#CBD5E1" font-size="9">依據：讓步紀律由價格擴至條件交換，最終落到語言句型</text>
+
+                    <rect x="307" y="134" width="275" height="40" rx="4" fill="#0F2942" stroke="#F59E0B"/>
+                    <text x="317" y="151" fill="#FBBF24" font-size="9.5" font-weight="800">鏈 8：#006 對事不對人/守原則 ➔ #007 誠懇/堅定/柔軟</text>
+                    <text x="317" y="166" fill="#CBD5E1" font-size="9">依據：第 6 講的語言與肢體是第 5 講內在心態的外顯化</text>
+
+                    <!-- Bottom: Synergy with MEDDIC -->
+                    <rect x="18" y="186" width="564" height="110" rx="6" fill="#065F46" stroke="#10B981" stroke-width="2"/>
+                    <text x="300" y="206" text-anchor="middle" fill="#6EE7B7" font-size="11" font-weight="800">🤝 二、大衛雲 A2.6 跨系統協同：MEDDIC 顧問銷售 (A2.6.3.2) × 湯君健談判 (A2.6.4)</text>
+                    <text x="300" y="226" text-anchor="middle" fill="#FFFFFF" font-size="9.5">• 【M 指標量化】＝ 湯君健第 4 講「用數字說話把利益算出來」＋「要總利潤額而非利潤率」</text>
+                    <text x="300" y="244" text-anchor="middle" fill="#FFFFFF" font-size="9.5">• 【E 經濟決策者 / C 擁護者】＝ 湯君健第 4 講「拍板人(總經理) × 評估人(CFO) × 執行人」精準對接</text>
+                    <text x="300" y="262" text-anchor="middle" fill="#FFFFFF" font-size="9.5">• 【D 決策標準重塑】＝ 湯君健第 4 講「先問對方規劃，把己方方案塞進對方的主張裡」</text>
+                    <text x="300" y="280" text-anchor="middle" fill="#FDE68A" font-size="9.5" font-weight="700">• 【異議處理六字訣】＋【拒絕公式】＝ 面對砍價時「同感受→綁規格→關門指路換條件」完美閉環！</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：大衛雲 A2.6.4 知識庫 #008 綜合整理 × A2.6.3.2 MEDDIC 銷售知識庫跨模組對照。</div>
+              </div>
+
+              <!-- Right: Synthesis Insights -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🧠 為什麼要把「全課八條因果鏈」串起來看？</div>
+                  <ul class="bucket-list">
+                    <li><strong>技巧不能孤立使用</strong>：如果你只學第 6 講的「立場要堅定（手掌下壓）」，卻沒有第 2 講的「機會成本備案」與第 5 講的「沒有非成交不可」，你的堅定就只是虛張聲勢，一被施壓就會破功。</li>
+                    <li><strong>從分橘子到價值鏈是一脈相承</strong>：第 1 講「分橘子」教你區分表面訴求與真實需求；到了第 3 講用「假設性問題」問出這個需求；到了第 4 講則把這個需求擴展到「顧客端第三方」，形成完整解題鏈。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">🚀 商務實戰雙劍合璧：先用 MEDDIC 控盤，再用三層談判收官</div>
+                  <ul class="bucket-list">
+                    <li><strong>銷售前中段（MEDDIC）</strong>：在商機開發期，用 MEDDIC 找出痛點（Identify Pain）、量化 ROI（Metrics）、鎖定 EB 與培養 Champion。</li>
+                    <li><strong>商務議價與簽約段（湯君健談判）</strong>：進入合約條款與價格博弈時，啟動湯君健「20 項條款三級分類」、「報完價閉嘴」、「空調緩衝帶」與「拒絕公式」，守住毛利不滑單！</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 15 -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th>因果鏈編號</th>
+                    <th>前因（基礎工具／認知）</th>
+                    <th>後果（高階能力／外顯行為）</th>
+                    <th>邏輯依據與實戰意義（知識庫 #008）</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>因果鏈 1 &amp; 2</strong></td>
+                    <td>#003 底線＝機會成本 ＋ #004 隱藏替代方案＝談崩</td>
+                    <td>➔ <strong>#006 沒有非成交不可的談判（離桌底氣）</strong></td>
+                    <td>手上有真實備選方案（多備一家報價），才不會陷入非成交不可的恐懼。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>因果鏈 3</strong></td>
+                    <td>#002 表面訴求 ≠ 真實需求（分橘子）</td>
+                    <td>➔ <strong>#004 假設性問題 ➔ #005 閱讀價值鏈</strong></td>
+                    <td>對真實需求挖得越深，可交換的次要條件與可創造的第三方價值就越大。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>因果鏈 4, 5, 6</strong></td>
+                    <td>#003 價格卡關 ➔ #004 切換條件層 ➔ #005 創造新條件</td>
+                    <td>➔ <strong>#003 把餅做大後回到價格分配</strong></td>
+                    <td>三層模型構成動態循環，做大總利潤面積後仍須以價格談判基本功完成分配。</td>
+                  </tr>
+                  <tr>
+                    <td><strong>因果鏈 7 &amp; 8</strong></td>
+                    <td>#003 不情願讓步 ➔ #004 讓步三原則 ＋ #006 對事不對人</td>
+                    <td>➔ <strong>#007「如果…就…」＋ 誠懇／堅定／柔軟</strong></td>
+                    <td>內在讓步紀律與心理防線，最終透過第 6 講的語言公式與肢體動作外顯出來。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>💡 <strong>Takeaway 關鍵結論：</strong>有備案才有底氣，挖需求才能換條件，守原則才能撐起「誠懇、堅定、柔軟」的宗師姿態。</span>
+              <span>對應來源：全課網路關係 ｜ 知識庫 #008</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 15 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>將全課 #001 到 #007 的知識點串聯為八條橫向因果鏈，並與大衛雲 A2.6.3.2 的 MEDDIC 銷售方法論形成「前段價值控盤、後段議價收官」的完整閉環。<br>
+                <strong>② 補充說明：</strong>請看因果鏈 1 與 7：為什麼有的人在談判桌上能做到「立場堅定、不情願讓步」？因為他在進場前已經做好了第 2 講的「機會成本備案」與第 3 講的「條款三級分類」。沒有前段的準備，後段的話術都是無根之木。<br>
+                <strong>③ 下一頁轉場：</strong>最後一頁，我們將全課精華濃縮為一張可直接帶進會議室的「談判前一頁紙（One-Page Negotiation Canvas）」與 13 項落地行動檢核表！
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 15 of 16</span>
+          </div>
+        </section>
+
+        <!-- ================================================================
+             SLIDE 16: 全課總結 ｜ 「談判前一頁紙」作戰畫布與 13 項待辦行動池 (#001-#008)
+             ================================================================ -->
+        <section class="mck-slide" id="slide-16">
+          <div class="mck-slide-top">
+            <div class="mck-tracker-row">
+              <div class="mck-breadcrumb">SLIDE 16 / 16 ｜ ACTIONABLE PLAYBOOK: ONE-PAGE NEGOTIATION CANVAS &amp; 13 ACTIONS (#001–#008)</div>
+              <span class="badge-mck badge-emerald">全課總結與落地行動</span>
+            </div>
+            <h2 class="mck-action-title">
+              全課總結與落地行動：將「替代方案、條款三級分類、底線與目標」收斂為「<span class="hl-gold">談判前一頁紙</span>」，實現利益與尊重兼得
+            </h2>
+          </div>
+
+          <div class="mck-slide-body">
+            <div class="mck-two-col">
+              <!-- Left: Visual Exhibit 16 -->
+              <div class="mck-exhibit-box">
+                <div class="exhibit-header">
+                  <span class="exhibit-label">EXHIBIT 16 ｜ THE ONE-PAGE NEGOTIATION PREP CANVAS (談判前一頁紙)</span>
+                  <span class="exhibit-title">進場前 15 分鐘必填「談判前一頁紙」五格作戰畫布（整合 #001–#008）</span>
+                </div>
+                <div class="exhibit-canvas">
+                  <svg viewBox="0 0 600 310" width="100%">
+                    <rect width="600" height="310" rx="6" fill="#051C2C"/>
+                    <text x="300" y="24" text-anchor="middle" fill="#FBBF24" font-size="11.5" font-weight="800">📋 大衛雲 2.0 實戰工具：【談判前一頁紙 One-Page Negotiation Canvas】</text>
+
+                    <!-- Box 1: Bottom line & Walk-away -->
+                    <rect x="16" y="36" width="280" height="82" rx="5" fill="#0F2942" stroke="#EF4444" stroke-width="1.5"/>
+                    <text x="28" y="54" fill="#FCA5A5" font-size="10.5" font-weight="800">① 底線、目標與離桌備案 (#003 + #006)</text>
+                    <text x="28" y="71" fill="#FFFFFF" font-size="9.5">• 我要的核心目標價：_______（附 3 條客觀理由）</text>
+                    <text x="28" y="87" fill="#FFFFFF" font-size="9.5">• 底線價（手上最佳備選機會成本）：_______</text>
+                    <text x="28" y="103" fill="#FDE68A" font-size="9">• 若談崩我的替代方案：_______｜對方離桌機率：___%</text>
+
+                    <!-- Box 2: 3-Tier Terms -->
+                    <rect x="304" y="36" width="280" height="82" rx="5" fill="#0F2942" stroke="#38BDF8" stroke-width="1.5"/>
+                    <text x="316" y="54" fill="#38BDF8" font-size="10.5" font-weight="800">② 合約可談條款三級分類 (#004)</text>
+                    <text x="316" y="71" fill="#FFFFFF" font-size="9.5">• 🥇 主要目標（必保 1–2 項）：單價 / 付款里程碑</text>
+                    <text x="316" y="87" fill="#34D399" font-size="9.5">• 🥈 次要目標（交換籌碼）：免租期 / 交期 / 空調緩衝</text>
+                    <text x="316" y="103" fill="#FCA5A5" font-size="9">• 🛑 底線條件（絕不交易紅線）：無限連帶責任等</text>
+
+                    <!-- Box 3: Orange Peel & Questions -->
+                    <rect x="16" y="126" width="280" height="82" rx="5" fill="#0F2942" stroke="#10B981" stroke-width="1.5"/>
+                    <text x="28" y="144" fill="#6EE7B7" font-size="10.5" font-weight="800">③ 對方「橘子皮」與 2 題假設題 (#002 + #004)</text>
+                    <text x="28" y="161" fill="#FFFFFF" font-size="9.5">• 對方表面訴求 vs. 背後真實顧慮（如名貴桌子）：</text>
+                    <text x="28" y="177" fill="#A7F3D0" font-size="9.5">• 需求排序題：請對方排「價格/工期/品質/付款」</text>
+                    <text x="28" y="193" fill="#FDE68A" font-size="9">• 假設二選一：「價格不動調付款 vs 降2%高預付選哪個？」</text>
+
+                    <!-- Box 4: Value Triangle & 3 Roles -->
+                    <rect x="304" y="126" width="280" height="82" rx="5" fill="#0F2942" stroke="#F59E0B" stroke-width="1.5"/>
+                    <text x="316" y="144" fill="#FBBF24" font-size="10.5" font-weight="800">④ 價值鏈三角形與 ABC 三角色 (#005)</text>
+                    <text x="316" y="161" fill="#FFFFFF" font-size="9.5">• 第三方（顧客/用電戶/金融方）做大點與增量試算：</text>
+                    <text x="316" y="177" fill="#FFFFFF" font-size="9.5">• 方案 A(快見效) / B(均衡) / C(低風險好掉頭)</text>
+                    <text x="316" y="193" fill="#38BDF8" font-size="9">• 拍板人(看方向)：___｜評估人(看數據)：___｜執行人：___</text>
+
+                    <!-- Box 5: Posture & Refusal Formula -->
+                    <rect x="16" y="216" width="568" height="80" rx="5" fill="#065F46" stroke="#10B981" stroke-width="2"/>
+                    <text x="28" y="236" fill="#FDE68A" font-size="10.5" font-weight="800">⑤ 報價紀律、心理戰防禦與預寫「拒絕公式」話術 (#003 + #006 + #007)</text>
+                    <text x="28" y="254" fill="#FFFFFF" font-size="9.5">• 報價紀律：先講 1234 理由 ➔ 【報完價立刻閉嘴】 ➔ 遞減讓步（50→25→5）＋ 條件換條件（「如果…就…」）</text>
+                    <text x="28" y="271" fill="#FFFFFF" font-size="9.5">• 預寫拒絕公式：「關於【條款A】真的沒法再改了（關門）；不如我們討論【條款B】怎麼配合（指路）。」</text>
+                    <text x="28" y="287" fill="#A7F3D0" font-size="9">• 氣場清單：對手安排靠牆座位、我方人數對等、手掌向下按壓、雙腳種地、情緒快崩主動喊停！</text>
+                  </svg>
+                </div>
+                <div class="exhibit-source">資料來源：綜合《湯君健_有效提升你的谈判能力知識庫.md》#001–#008 待辦行動池收斂而成。</div>
+              </div>
+
+              <!-- Right: Course Summary & Core Takeaways -->
+              <div style="display: flex; flex-direction: column; gap: 14px;">
+                <div class="mck-bucket-card navy-top">
+                  <div class="bucket-title">🏆 全課精華 5 大核心金句（立即應用的一件事）</div>
+                  <ul class="bucket-list">
+                    <li><strong>1. 談判的本質</strong>：「凡是你覺得『我要』、但又沒那麼容易要到的，都屬於談判。」高手的核心印象是<strong>「可靠」</strong>。</li>
+                    <li><strong>2. 價格談判鐵律</strong>：「想表現得懂行，最好的辦法是真正懂行」；「報價前列理由，<strong>報完價立刻閉嘴</strong>」；做幅度遞減的不情願讓步者。</li>
+                    <li><strong>3. 條件與價值破局</strong>：「條款列得多＝開高價」；用<strong>假設性問題</strong>探底牌；卡關時納入顧客第三方做大<strong>價值鏈三角形</strong>。</li>
+                    <li><strong>4. 心態與姿態防線</strong>：「<strong>沒有非成交不可的談判</strong>；雙贏是結果不是目的」；貫徹「<strong>態度要誠懇，立場要堅定，身段要柔軟</strong>」。</li>
+                  </ul>
+                </div>
+
+                <div class="mck-bucket-card gold-top">
+                  <div class="bucket-title">⚡ 讀完這門課，今天就能立刻落地的一件事（#008 首要行動）</div>
+                  <ul class="bucket-list">
+                    <li><strong>合併產出你的第一張「談判前一頁紙」</strong>：挑選下一筆實際採購（光電模組／逆變器／施工分包）或下一份業主 EPC 合約，花 15 分鐘填完左側五格畫布，帶著它走進會議室！</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Table 16: Full 13 Action Items from Knowledge Base -->
+            <div class="mck-table-wrap">
+              <table class="mck-table">
+                <thead>
+                  <tr>
+                    <th style="width: 10%;">優先級</th>
+                    <th style="width: 12%;">來源編號</th>
+                    <th style="width: 46%;">David 談判協商待辦行動池（知識庫 #001–#008 全 13 項）</th>
+                    <th style="width: 32%;">預期實戰效益與驗證指標</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="badge-mck badge-crimson" style="background:#DC2626; color:#FFF;">高 P0</span></td>
+                    <td><strong>#003 / #008</strong></td>
+                    <td>為下一筆主要採購（模組／逆變器／施工分包擇一）寫出<strong>底線價、目標價與 3 條報價／還價理由</strong>，並合併為<strong>「談判前一頁紙」</strong>。</td>
+                    <td>進場前心裡有尺子，不被對方報價帶著走，將分散行動收斂為可重複使用工具。</td>
+                  </tr>
+                  <tr>
+                    <td><span class="badge-mck badge-crimson" style="background:#DC2626; color:#FFF;">高 P0</span></td>
+                    <td><strong>#004</strong></td>
+                    <td>把 <strong>EPC 標準合約（或下一份業主合約）的可談條款全部列成清單</strong>，逐條標註主要目標／次要目標／底線條件。</td>
+                    <td>讓步時有充足的次要目標可作交換籌碼（空調緩衝帶），保住核心利潤與付款主要目標。</td>
+                  </tr>
+                  <tr>
+                    <td><span class="badge-mck badge-crimson" style="background:#DC2626; color:#FFF;">高 P0</span></td>
+                    <td><strong>#006 / #007</strong></td>
+                    <td>談判前寫下<strong>「若談崩我的替代方案」與「對方離桌可能性」</strong>各一行；用<strong>「拒絕公式」</strong>為最常被砍的 2 個條款（單價、工期）預寫話術。</td>
+                    <td>確保具備離桌底氣不陷入非成交不可；守住立場同時指向另一條可談路徑不冷場。</td>
+                  </tr>
+                  <tr>
+                    <td><span class="badge-mck badge-blue">中 P1</span></td>
+                    <td><strong>#001 / #002 / #003</strong></td>
+                    <td>列出本季 3 件「我要」事項；標出近期談判所處層次與對方「橘子皮」需求；<strong>對照 5 家以上報價拆解成本結構</strong>反推供應商成本區間。</td>
+                    <td>複製紅酒採購「真正懂行」做法，還價有客觀事實可擺；卡關時知道往哪一層切換。</td>
+                  </tr>
+                  <tr>
+                    <td><span class="badge-mck badge-blue">中 P1</span></td>
+                    <td><strong>#004 / #005 / #006</strong></td>
+                    <td>準備 2 題假設性問題；挑卡關案<strong>畫出含第三方價值鏈並拆成 A/B/C 三方案（標出拍板/評估/執行人）</strong>；回顧近 3 場談判對照 5 種心理戰寫應對話術。</td>
+                    <td>把零和價格戰轉為共同投入的新價值方案，對不同決策者講對重點並識破心理戰。</td>
+                  </tr>
+                  <tr>
+                    <td><span class="badge-mck badge-slate">低 P2</span></td>
+                    <td><strong>#002</strong></td>
+                    <td>起草個人版<strong>「重要談判前檢查清單」初稿</strong>（需求挖掘、資訊蒐集、利益計算、對方性格喜好、議程、會場、靠牆座位安排）。</td>
+                    <td>讓重要商務談判的理性與非理性準備工作全面標準化、制度化。</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="mck-takeaway-bar">
+              <span>🎉 <strong>全課結語金句：</strong>「好的談判者，是利益和尊重兼得的，希望你也能成為這樣的人！」—— 湯君健</span>
+              <span>恭喜完成 COURSE #001 全 16 頁麥肯錫簡報教材研習！</span>
+            </div>
+
+            <div class="mck-speaker-notes">
+              <div class="notes-toggle-header">
+                <span>🎙️ 麥肯錫顧問三段式講稿備忘錄（點擊展開／快捷鍵 N）</span>
+                <span>Slide 16 Notes ▾</span>
+              </div>
+              <div class="notes-body">
+                <strong>① 本頁結論：</strong>將全課六講與知識庫 #001–#008 的 13 項待辦行動，收斂為進場前 15 分鐘必填的「談判前一頁紙」，在實戰中同時贏得利益與對手的尊重。<br>
+                <strong>② 補充說明：</strong>知識庫 #008 特別指出，最能產生立即槓桿的動作，就是把「替代方案（#006）、條款分級（#004）、底線與目標（#003）」三項合併成一頁紙。本頁左上方的 Exhibit 16 已經為您畫好標準五格模板，下次採購模組、逆變器、施工分包或與業主談 EPC 合約前，直接照表填寫即可上場。<br>
+                <strong>③ 結語與下一步：</strong>您可隨時點擊頂部「返回談判知識庫門戶」使用全站關鍵字即時檢索，或點擊「下載 .pptx」取得麥肯錫風格離線簡報檔作為內部培訓教材！
+              </div>
+            </div>
+          </div>
+
+          <div class="mck-slide-footer">
+            <span>談判協商知識庫 ｜ COURSE #001 湯君健《有效提升你的談判能力》</span>
+            <span>McKinsey Executive Briefing Format • Page 16 of 16</span>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- Floating Bottom Slide Navigation Dock -->
+  <div class="deck-floating-nav">
+    <button class="dock-btn" id="btnPrevSlide" title="上一頁 (←)">←</button>
+    <div class="dock-counter" id="slideCounter">Slide 1 / 16</div>
+    <button class="dock-btn" id="btnNextSlide" title="下一頁 (→)">→</button>
+  </div>
+
+  <script src="search-index.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
